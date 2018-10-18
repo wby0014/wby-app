@@ -1,0 +1,3 @@
+com\example\wby\upms\server\base\controller\interceptor\UpmsInterceptor.class
+com\example\wby\upms\server\base\controller\UpmsServerApplication.class
+com\example\wby\upms\server\base\controller\manage\UpmsUserController.class

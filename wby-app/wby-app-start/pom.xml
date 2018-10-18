@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>wby-app</artifactId>
+        <groupId>com.example.wby</groupId>
+        <version>1.0.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>wby-app-start</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+    <packaging>war</packaging>
+
+    <dependencies>
+
+        <!--spring相关配置 begin-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+            <version>2.0.5.RELEASE</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-tomcat</artifactId>
+            <scope>provided</scope>
+        </dependency>
+        <!--spring相关配置 end-->
+
+        <!--当前项目子模块 begin-->
+        <dependency>
+            <groupId>com.example.wby</groupId>
+            <artifactId>wby-app-api-common</artifactId>
+            <version>1.0.0-SNAPSHOT</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.example.wby</groupId>
+            <artifactId>wby-app-common</artifactId>
+            <version>1.0.0-SNAPSHOT</version>
+        </dependency>
+
+        <!--假如有多个业务模块，可继续添加引用-->
+        <!--<dependency>
+            <groupId>com.exampleby</groupId>
+            <artifactId>wby-app-user</artifactId>
+            <version>1.0.0-SNAPSHOT</version>
+        </dependency>-->
+
+        <dependency>
+            <groupId>com.example.wby</groupId>
+            <artifactId>wby-app-view</artifactId>
+            <version>1.0.0-SNAPSHOT</version>
+        </dependency>
+        <!--当前项目子模块 end-->
+    </dependencies>
+
+    <build>
+        <finalName>ROOT</finalName>
+
+        <!--<plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-war-plugin</artifactId>
+                <version>3.2.0</version>
+                <configuration>
+                    <failOnMissingWebXml>false</failOnMissingWebXml>
+                </configuration>
+            </plugin>
+
+        </plugins>-->
+        <!--<resources>
+            <resource>
+                <directory>src/main/resources</directory>
+            </resource>
+        </resources>-->
+    </build>
+</project>

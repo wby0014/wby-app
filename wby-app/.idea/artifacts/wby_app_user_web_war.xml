@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="wby-app-user-web:war">
+    <output-path>$PROJECT_DIR$/wby-app-modules/wby-app-user/wby-app-user-web/target</output-path>
+    <root id="archive" name="wby-app-user-web.war">
+      <element id="artifact" artifact-name="wby-app-user-web:war exploded" />
+    </root>
+  </artifact>
+</component>
