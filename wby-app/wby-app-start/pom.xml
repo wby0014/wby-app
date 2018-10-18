@@ -73,6 +73,7 @@
             </plugin>
 
         </plugins>-->
+        <!--指定资源目录 -->
         <!--<resources>
             <resource>
                 <directory>src/main/resources</directory>
