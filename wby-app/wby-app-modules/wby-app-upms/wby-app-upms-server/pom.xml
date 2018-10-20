@@ -145,7 +145,7 @@
             </resource>
         </resources>-->
         <plugins>
-            <plugin>
+           <!-- <plugin>
                 <groupId>org.eclipse.jetty</groupId>
                 <artifactId>jetty-maven-plugin</artifactId>
                 <version>9.4.7.v20170914</version>
@@ -159,7 +159,7 @@
                     </httpConnector>
                     <reload>automatic</reload>
                 </configuration>
-            </plugin>
+            </plugin>-->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>

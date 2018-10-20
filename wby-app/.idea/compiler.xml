@@ -37,41 +37,41 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="wby-app" target="1.7" />
-      <module name="wby-app-activemq" target="1.7" />
-      <module name="wby-app-api" target="1.7" />
-      <module name="wby-app-api-common" target="1.7" />
-      <module name="wby-app-api-rpc-api" target="1.7" />
-      <module name="wby-app-api-rpc-service" target="1.7" />
-      <module name="wby-app-api-server" target="1.7" />
-      <module name="wby-app-cms" target="1.7" />
-      <module name="wby-app-cms-admin" target="1.7" />
-      <module name="wby-app-cms-common" target="1.7" />
-      <module name="wby-app-cms-dao" target="1.7" />
-      <module name="wby-app-cms-rpc-api" target="1.7" />
-      <module name="wby-app-cms-rpc-service" target="1.7" />
-      <module name="wby-app-cms-web" target="1.7" />
-      <module name="wby-app-common" target="1.7" />
-      <module name="wby-app-config" target="1.7" />
-      <module name="wby-app-datasource" target="1.7" />
-      <module name="wby-app-exception" target="1.7" />
-      <module name="wby-app-modules" target="1.7" />
-      <module name="wby-app-redis" target="1.7" />
-      <module name="wby-app-start" target="1.7" />
-      <module name="wby-app-upms" target="1.7" />
-      <module name="wby-app-upms-client" target="1.7" />
-      <module name="wby-app-upms-common" target="1.7" />
-      <module name="wby-app-upms-dao" target="1.7" />
-      <module name="wby-app-upms-rpc-api" target="1.7" />
+      <module name="wby-app" target="1.8" />
+      <module name="wby-app-activemq" target="1.8" />
+      <module name="wby-app-api" target="1.8" />
+      <module name="wby-app-api-common" target="1.8" />
+      <module name="wby-app-api-rpc-api" target="1.8" />
+      <module name="wby-app-api-rpc-service" target="1.8" />
+      <module name="wby-app-api-server" target="1.8" />
+      <module name="wby-app-cms" target="1.8" />
+      <module name="wby-app-cms-admin" target="1.8" />
+      <module name="wby-app-cms-common" target="1.8" />
+      <module name="wby-app-cms-dao" target="1.8" />
+      <module name="wby-app-cms-rpc-api" target="1.8" />
+      <module name="wby-app-cms-rpc-service" target="1.8" />
+      <module name="wby-app-cms-web" target="1.8" />
+      <module name="wby-app-common" target="1.8" />
+      <module name="wby-app-config" target="1.8" />
+      <module name="wby-app-datasource" target="1.8" />
+      <module name="wby-app-exception" target="1.8" />
+      <module name="wby-app-modules" target="1.8" />
+      <module name="wby-app-redis" target="1.8" />
+      <module name="wby-app-start" target="1.8" />
+      <module name="wby-app-upms" target="1.8" />
+      <module name="wby-app-upms-client" target="1.8" />
+      <module name="wby-app-upms-common" target="1.8" />
+      <module name="wby-app-upms-dao" target="1.8" />
+      <module name="wby-app-upms-rpc-api" target="1.8" />
       <module name="wby-app-upms-rpc-service" target="1.8" />
-      <module name="wby-app-upms-server" target="1.7" />
-      <module name="wby-app-user" target="1.7" />
-      <module name="wby-app-user-common" target="1.7" />
-      <module name="wby-app-user-dao" target="1.7" />
-      <module name="wby-app-user-rpc-api" target="1.7" />
-      <module name="wby-app-user-rpc-service" target="1.7" />
+      <module name="wby-app-upms-server" target="1.8" />
+      <module name="wby-app-user" target="1.8" />
+      <module name="wby-app-user-common" target="1.8" />
+      <module name="wby-app-user-dao" target="1.8" />
+      <module name="wby-app-user-rpc-api" target="1.8" />
+      <module name="wby-app-user-rpc-service" target="1.8" />
       <module name="wby-app-user-web" target="1.7" />
-      <module name="wby-app-view" target="1.7" />
+      <module name="wby-app-view" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

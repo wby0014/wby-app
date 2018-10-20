@@ -20,7 +20,6 @@ public class RedisCacheUtils {
     @Resource
     private RedisTemplate redisTemplate;
 
-
     public void setEx(String key, Object value, int seconds) {
         redisTemplate.opsForValue().set(key, value, seconds, TimeUnit.SECONDS);
     }
