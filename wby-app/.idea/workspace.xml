@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c1685fd8-bd98-42c0-8845-8b5701ce8fe5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/wby-app-modules/wby-app-upms/wby-app-upms-client/src/main/java/com/example/wby/upms/client/concurrent/AtomicIntegerDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wby-app-modules/wby-app-upms/wby-app-upms-client/src/main/java/com/example/wby/upms/client/concurrent/Counter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wby-app-modules/wby-app-upms/wby-app-upms-client/src/main/java/com/example/wby/upms/client/concurrent/LockCounter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wby-app-modules/wby-app-upms/wby-app-upms-client/src/main/java/com/example/wby/upms/client/concurrent/LockSupportDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wby-app-modules/wby-app-upms/wby-app-upms-client/src/main/java/com/example/wby/upms/client/concurrent/MyBlockingQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wby-app-modules/wby-app-upms/wby-app-upms-client/src/main/java/com/example/wby/upms/client/concurrent/MyLock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wby-app-modules/wby-app-upms/wby-app-upms-client/src/main/java/com/example/wby/upms/client/concurrent/WaitThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wby-app-modules/wby-app-upms/wby-app-upms-client/src/main/java/com/example/wby/upms/client/concurrent/CountDownLatchTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wby-app-modules/wby-app-upms/wby-app-upms-client/src/main/java/com/example/wby/upms/client/concurrent/JoinCountDownLatchTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wby-app-modules/wby-app-upms/wby-app-upms-client/src/main/java/com/example/wby/upms/client/concurrent/MyCache.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/wby-app-api/target/" />
@@ -56,47 +52,38 @@
     <session id="2056943894">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.48" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.63" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="9" />
+          <entry key="java" value="13" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="9" />
+          <entry key="JAVA" value="13" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1644" />
+          <entry key="java" value="2880" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1644" />
+          <entry key="JAVA" value="2880" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/wby-app-modules/wby-app-upms/wby-app-upms-client/src/main/java/com/example/wby/upms/client/concurrent/MyBlockingQueue.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="925">
-              <caret line="41" column="21" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -119,6 +106,10 @@
         <option value="$PROJECT_DIR$/wby-app-modules/wby-app-upms/wby-app-upms-client/src/main/java/com/example/wby/upms/client/concurrent/LockSupportDemo.java" />
         <option value="$PROJECT_DIR$/wby-app-modules/wby-app-upms/wby-app-upms-client/src/main/java/com/example/wby/upms/client/concurrent/WaitThread.java" />
         <option value="$PROJECT_DIR$/wby-app-modules/wby-app-upms/wby-app-upms-client/src/main/java/com/example/wby/upms/client/concurrent/MyBlockingQueue.java" />
+        <option value="$PROJECT_DIR$/wby-app-modules/wby-app-upms/wby-app-upms-client/src/main/java/com/example/wby/upms/client/concurrent/MyCache.java" />
+        <option value="$PROJECT_DIR$/wby-app-modules/wby-app-upms/wby-app-upms-client/src/main/java/com/example/wby/upms/client/concurrent/TestJoin.java" />
+        <option value="$PROJECT_DIR$/wby-app-modules/wby-app-upms/wby-app-upms-client/src/main/java/com/example/wby/upms/client/concurrent/JoinCountDownLatchTest.java" />
+        <option value="$PROJECT_DIR$/wby-app-modules/wby-app-upms/wby-app-upms-client/src/main/java/com/example/wby/upms/client/concurrent/CountDownLatchTest.java" />
       </list>
     </option>
   </component>
@@ -129,10 +120,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="34" />
-    <option name="y" value="-23" />
+    <option name="x" value="99" />
+    <option name="y" value="248" />
     <option name="width" value="1269" />
-    <option name="height" value="735" />
+    <option name="height" value="788" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -279,15 +270,15 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540217649015" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540302625348" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -301,9 +292,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.WaitThread">
+  <component name="RunManager" selected="Application.CountDownLatchTest">
     <configuration name="AtomicIntegerDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.wby.upms.client.concurrent.AtomicIntegerDemo" />
+      <module name="wby-app-upms-client" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.wby.upms.client.concurrent.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CountDownLatchTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.wby.upms.client.concurrent.CountDownLatchTest" />
       <module name="wby-app-upms-client" />
       <extension name="coverage">
         <pattern>
@@ -345,9 +349,11 @@
       <item itemvalue="Application.AtomicIntegerDemo" />
       <item itemvalue="Application.LockSupportDemo" />
       <item itemvalue="Application.WaitThread" />
+      <item itemvalue="Application.CountDownLatchTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CountDownLatchTest" />
         <item itemvalue="Application.WaitThread" />
         <item itemvalue="Application.LockSupportDemo" />
         <item itemvalue="Application.AtomicIntegerDemo" />
@@ -365,30 +371,24 @@
       <option name="presentableId" value="Default" />
       <updated>1540212588195</updated>
       <workItem from="1540212618153" duration="5303000" />
+      <workItem from="1540298550052" duration="3370000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5303000" />
+    <option name="totallyTimeSpent" value="8673000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info id="Designer" />
-      <window_info id="Image Layers" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Capture Tool" />
-      <window_info id="Web" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22519083" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2755725" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Spring" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.32909092" />
-      <window_info anchor="bottom" id="Java Enterprise" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32909092" />
@@ -396,16 +396,23 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Maven Projects" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Bean Validation" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32909092" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -440,10 +447,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-          <folding>
-            <element signature="e#331#332#0" expanded="true" />
-            <element signature="e#373#374#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -451,12 +454,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
           <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
-          <folding>
-            <element signature="e#140#141#0" expanded="true" />
-            <element signature="e#160#161#0" expanded="true" />
-            <element signature="e#196#197#0" expanded="true" />
-            <element signature="e#224#225#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -464,11 +461,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#423#424#0" expanded="true" />
-            <element signature="e#451#452#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -483,17 +475,45 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="290">
           <caret line="16" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="e#198#331#0" expanded="true" />
-            <element signature="e#330#331#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wby-app-modules/wby-app-upms/wby-app-upms-client/src/main/java/com/example/wby/upms/client/concurrent/MyBlockingQueue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="925">
-          <caret line="41" column="21" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
+        <state relative-caret-position="-485">
+          <caret line="15" column="39" lean-forward="true" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wby-app-modules/wby-app-upms/wby-app-upms-client/src/main/java/com/example/wby/upms/client/concurrent/MyCache.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-75">
+          <caret line="12" column="16" lean-forward="true" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+          <folding>
+            <element signature="method#get#0;class#MyCache#0" />
+            <element signature="method#put#0;class#MyCache#0" />
+            <element signature="method#clear#0;class#MyCache#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wby-app-modules/wby-app-upms/wby-app-upms-client/src/main/java/com/example/wby/upms/client/concurrent/JoinCountDownLatchTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+          <folding>
+            <element signature="e#237#238#0" expanded="true" />
+            <element signature="e#291#292#0" expanded="true" />
+            <element signature="e#415#416#0" expanded="true" />
+            <element signature="e#467#468#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wby-app-modules/wby-app-upms/wby-app-upms-client/src/main/java/com/example/wby/upms/client/concurrent/CountDownLatchTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-91">
+          <caret line="6" column="49" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
         </state>
       </provider>
     </entry>
