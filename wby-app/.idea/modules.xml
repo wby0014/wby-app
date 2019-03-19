@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/wby-app.iml" filepath="$PROJECT_DIR$/wby-app.iml" />
       <module fileurl="file://$PROJECT_DIR$/wby-app-config/wby-app-activemq/wby-app-activemq.iml" filepath="$PROJECT_DIR$/wby-app-config/wby-app-activemq/wby-app-activemq.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wby-app-algorithms/wby-app-algorithms.iml" filepath="$PROJECT_DIR$/wby-app-algorithms/wby-app-algorithms.iml" />
       <module fileurl="file://$PROJECT_DIR$/wby-app-api/wby-app-api.iml" filepath="$PROJECT_DIR$/wby-app-api/wby-app-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/wby-app-api/wby-app-api-common/wby-app-api-common.iml" filepath="$PROJECT_DIR$/wby-app-api/wby-app-api-common/wby-app-api-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/wby-app-api/wby-app-api-rpc-api/wby-app-api-rpc-api.iml" filepath="$PROJECT_DIR$/wby-app-api/wby-app-api-rpc-api/wby-app-api-rpc-api.iml" />
@@ -19,6 +20,7 @@
       <module fileurl="file://$PROJECT_DIR$/wby-app-common/wby-app-common.iml" filepath="$PROJECT_DIR$/wby-app-common/wby-app-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/wby-app-config/wby-app-config.iml" filepath="$PROJECT_DIR$/wby-app-config/wby-app-config.iml" />
       <module fileurl="file://$PROJECT_DIR$/wby-app-config/wby-app-datasource/wby-app-datasource.iml" filepath="$PROJECT_DIR$/wby-app-config/wby-app-datasource/wby-app-datasource.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wby-app-designmode/wby-app-designmode.iml" filepath="$PROJECT_DIR$/wby-app-designmode/wby-app-designmode.iml" />
       <module fileurl="file://$PROJECT_DIR$/wby-app-config/wby-app-exception/wby-app-exception.iml" filepath="$PROJECT_DIR$/wby-app-config/wby-app-exception/wby-app-exception.iml" />
       <module fileurl="file://$PROJECT_DIR$/wby-app-modules/wby-app-modules.iml" filepath="$PROJECT_DIR$/wby-app-modules/wby-app-modules.iml" />
       <module fileurl="file://$PROJECT_DIR$/wby-app-config/wby-app-redis/wby-app-redis.iml" filepath="$PROJECT_DIR$/wby-app-config/wby-app-redis/wby-app-redis.iml" />

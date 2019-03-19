@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="wby-app-activemq" />
+        <module name="wby-app-algorithms" />
         <module name="wby-app-api-common" />
         <module name="wby-app-api-rpc-api" />
         <module name="wby-app-api-rpc-service" />
@@ -19,6 +20,7 @@
         <module name="wby-app-cms-web" />
         <module name="wby-app-common" />
         <module name="wby-app-datasource" />
+        <module name="wby-app-designmode" />
         <module name="wby-app-exception" />
         <module name="wby-app-redis" />
         <module name="wby-app-start" />
@@ -39,6 +41,7 @@
     <bytecodeTargetLevel>
       <module name="wby-app" target="1.8" />
       <module name="wby-app-activemq" target="1.8" />
+      <module name="wby-app-algorithms" target="1.8" />
       <module name="wby-app-api" target="1.8" />
       <module name="wby-app-api-common" target="1.8" />
       <module name="wby-app-api-rpc-api" target="1.8" />
@@ -54,6 +57,7 @@
       <module name="wby-app-common" target="1.8" />
       <module name="wby-app-config" target="1.8" />
       <module name="wby-app-datasource" target="1.8" />
+      <module name="wby-app-designmode" target="1.8" />
       <module name="wby-app-exception" target="1.8" />
       <module name="wby-app-modules" target="1.8" />
       <module name="wby-app-redis" target="1.8" />

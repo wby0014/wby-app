@@ -1,49 +1,86 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c1685fd8-bd98-42c0-8845-8b5701ce8fe5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/wby-app-modules/wby-app-upms/wby-app-upms-client/src/main/java/com/example/wby/upms/client/generic/Base.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wby-app-modules/wby-app-upms/wby-app-upms-client/src/main/java/com/example/wby/upms/client/generic/Child.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wby-app-modules/wby-app-upms/wby-app-upms-client/src/main/java/com/example/wby/upms/client/generic/DynamicArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wby-app-modules/wby-app-upms/wby-app-upms-client/src/main/java/com/example/wby/upms/client/generic/NumberPair.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wby-app-modules/wby-app-upms/wby-app-upms-client/src/main/java/com/example/wby/upms/client/generic/Pair.java" afterDir="false" />
+    <list default="true" id="fbcbe4d9-a730-440a-a748-800fd4736fb9" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/wby_app_upms_server_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/wby_app_upms_server_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-app-api/wby-app-api-common/wby-app-api-common.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-app-api/wby-app-api-rpc-api/wby-app-api-rpc-api.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-app-api/wby-app-api-rpc-service/wby-app-api-rpc-service.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-app-api/wby-app-api-server/wby-app-api-server.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-app-api/wby-app-api.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-app-common/wby-app-common.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-app-config/wby-app-activemq/wby-app-activemq.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-app-config/wby-app-config.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-app-config/wby-app-datasource/wby-app-datasource.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-app-config/wby-app-exception/wby-app-exception.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-app-config/wby-app-redis/wby-app-redis.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-app-modules/wby-app-cms/wby-app-cms-admin/wby-app-cms-admin.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-app-modules/wby-app-cms/wby-app-cms-common/wby-app-cms-common.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-app-modules/wby-app-cms/wby-app-cms-dao/wby-app-cms-dao.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-app-modules/wby-app-cms/wby-app-cms-rpc-api/wby-app-cms-rpc-api.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-app-modules/wby-app-cms/wby-app-cms-rpc-service/wby-app-cms-rpc-service.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-app-modules/wby-app-cms/wby-app-cms-web/wby-app-cms-web.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-app-modules/wby-app-cms/wby-app-cms.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-app-modules/wby-app-modules.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-app-modules/wby-app-upms/wby-app-upms-client/wby-app-upms-client.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-app-modules/wby-app-upms/wby-app-upms-common/wby-app-upms-common.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-app-modules/wby-app-upms/wby-app-upms-dao/wby-app-upms-dao.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-app-modules/wby-app-upms/wby-app-upms-rpc-api/wby-app-upms-rpc-api.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-app-modules/wby-app-upms/wby-app-upms-rpc-service/wby-app-upms-rpc-service.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-app-modules/wby-app-upms/wby-app-upms-server/wby-app-upms-server.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-app-modules/wby-app-upms/wby-app-upms.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-app-modules/wby-app-user/wby-app-user-common/wby-app-user-common.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-app-modules/wby-app-user/wby-app-user-dao/wby-app-user-dao.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-app-modules/wby-app-user/wby-app-user-rpc-api/wby-app-user-rpc-api.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-app-modules/wby-app-user/wby-app-user-rpc-service/wby-app-user-rpc-service.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-app-modules/wby-app-user/wby-app-user-web/wby-app-user-web.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-app-modules/wby-app-user/wby-app-user.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-app-start/wby-app-start.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-app-view/wby-app-view.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-app.iml" beforeDir="false" />
     </list>
+    <ignored path="$PROJECT_DIR$/wby-app-config/wby-app-redis/target/" />
+    <ignored path="$PROJECT_DIR$/wby-app-modules/wby-app-user/target/" />
+    <ignored path="$PROJECT_DIR$/wby-app-api/wby-app-api-rpc-service/target/" />
+    <ignored path="$PROJECT_DIR$/wby-app-view/target/" />
+    <ignored path="$PROJECT_DIR$/wby-app-modules/wby-app-upms/target/" />
     <ignored path="$PROJECT_DIR$/wby-app-api/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
-    <ignored path="$PROJECT_DIR$/wby-app-api/wby-app-api-common/target/" />
-    <ignored path="$PROJECT_DIR$/wby-app-api/wby-app-api-rpc-api/target/" />
-    <ignored path="$PROJECT_DIR$/wby-app-config/wby-app-activemq/target/" />
-    <ignored path="$PROJECT_DIR$/wby-app-api/wby-app-api-rpc-service/target/" />
-    <ignored path="$PROJECT_DIR$/wby-app-api/wby-app-api-server/target/" />
-    <ignored path="$PROJECT_DIR$/wby-app-modules/wby-app-cms/wby-app-cms-common/target/" />
-    <ignored path="$PROJECT_DIR$/wby-app-modules/wby-app-cms/target/" />
-    <ignored path="$PROJECT_DIR$/wby-app-modules/wby-app-cms/wby-app-cms-rpc-api/target/" />
-    <ignored path="$PROJECT_DIR$/wby-app-modules/wby-app-cms/wby-app-cms-web/target/" />
-    <ignored path="$PROJECT_DIR$/wby-app-modules/wby-app-cms/wby-app-cms-rpc-service/target/" />
-    <ignored path="$PROJECT_DIR$/wby-app-modules/wby-app-cms/wby-app-cms-dao/target/" />
-    <ignored path="$PROJECT_DIR$/wby-app-modules/wby-app-cms/wby-app-cms-admin/target/" />
-    <ignored path="$PROJECT_DIR$/wby-app-config/target/" />
-    <ignored path="$PROJECT_DIR$/wby-app-modules/target/" />
-    <ignored path="$PROJECT_DIR$/wby-app-common/target/" />
-    <ignored path="$PROJECT_DIR$/wby-app-config/wby-app-redis/target/" />
-    <ignored path="$PROJECT_DIR$/wby-app-config/wby-app-datasource/target/" />
-    <ignored path="$PROJECT_DIR$/wby-app-modules/wby-app-upms/target/" />
-    <ignored path="$PROJECT_DIR$/wby-app-modules/wby-app-upms/wby-app-upms-client/target/" />
-    <ignored path="$PROJECT_DIR$/wby-app-modules/wby-app-upms/wby-app-upms-common/target/" />
-    <ignored path="$PROJECT_DIR$/wby-app-modules/wby-app-upms/wby-app-upms-rpc-api/target/" />
-    <ignored path="$PROJECT_DIR$/wby-app-modules/wby-app-upms/wby-app-upms-dao/target/" />
     <ignored path="$PROJECT_DIR$/wby-app-modules/wby-app-upms/wby-app-upms-rpc-service/target/" />
-    <ignored path="$PROJECT_DIR$/wby-app-modules/wby-app-user/target/" />
-    <ignored path="$PROJECT_DIR$/wby-app-modules/wby-app-user/wby-app-user-common/target/" />
-    <ignored path="$PROJECT_DIR$/wby-app-modules/wby-app-user/wby-app-user-dao/target/" />
-    <ignored path="$PROJECT_DIR$/wby-app-modules/wby-app-user/wby-app-user-rpc-api/target/" />
-    <ignored path="$PROJECT_DIR$/wby-app-modules/wby-app-user/wby-app-user-rpc-service/target/" />
-    <ignored path="$PROJECT_DIR$/wby-app-config/wby-app-exception/target/" />
-    <ignored path="$PROJECT_DIR$/wby-app-start/target/" />
-    <ignored path="$PROJECT_DIR$/wby-app-modules/wby-app-upms/wby-app-upms-server/target/" />
+    <ignored path="$PROJECT_DIR$/wby-app-api/wby-app-api-common/target/" />
+    <ignored path="$PROJECT_DIR$/wby-app-modules/wby-app-cms/wby-app-cms-dao/target/" />
     <ignored path="$PROJECT_DIR$/wby-app-modules/wby-app-user/wby-app-user-web/target/" />
-    <ignored path="$PROJECT_DIR$/wby-app-view/target/" />
+    <ignored path="$PROJECT_DIR$/wby-app-modules/wby-app-cms/wby-app-cms-admin/target/" />
+    <ignored path="$PROJECT_DIR$/wby-app-modules/wby-app-user/wby-app-user-dao/target/" />
+    <ignored path="$PROJECT_DIR$/wby-app-api/wby-app-api-server/target/" />
+    <ignored path="$PROJECT_DIR$/wby-app-config/wby-app-exception/target/" />
+    <ignored path="$PROJECT_DIR$/wby-app-modules/wby-app-upms/wby-app-upms-server/target/" />
+    <ignored path="$PROJECT_DIR$/wby-app-modules/wby-app-upms/wby-app-upms-common/target/" />
+    <ignored path="$PROJECT_DIR$/wby-app-config/wby-app-datasource/target/" />
+    <ignored path="$PROJECT_DIR$/wby-app-modules/wby-app-cms/wby-app-cms-rpc-service/target/" />
+    <ignored path="$PROJECT_DIR$/wby-app-modules/wby-app-cms/wby-app-cms-rpc-api/target/" />
+    <ignored path="$PROJECT_DIR$/wby-app-config/wby-app-activemq/target/" />
+    <ignored path="$PROJECT_DIR$/wby-app-modules/wby-app-user/wby-app-user-rpc-service/target/" />
+    <ignored path="$PROJECT_DIR$/wby-app-api/wby-app-api-rpc-api/target/" />
+    <ignored path="$PROJECT_DIR$/wby-app-modules/wby-app-upms/wby-app-upms-dao/target/" />
+    <ignored path="$PROJECT_DIR$/wby-app-modules/wby-app-cms/wby-app-cms-web/target/" />
+    <ignored path="$PROJECT_DIR$/wby-app-start/target/" />
+    <ignored path="$PROJECT_DIR$/wby-app-modules/target/" />
+    <ignored path="$PROJECT_DIR$/wby-app-modules/wby-app-user/wby-app-user-rpc-api/target/" />
+    <ignored path="$PROJECT_DIR$/wby-app-modules/wby-app-user/wby-app-user-common/target/" />
+    <ignored path="$PROJECT_DIR$/wby-app-modules/wby-app-upms/wby-app-upms-client/target/" />
+    <ignored path="$PROJECT_DIR$/wby-app-modules/wby-app-upms/wby-app-upms-rpc-api/target/" />
+    <ignored path="$PROJECT_DIR$/wby-app-modules/wby-app-cms/target/" />
+    <ignored path="$PROJECT_DIR$/wby-app-modules/wby-app-cms/wby-app-cms-common/target/" />
+    <ignored path="$PROJECT_DIR$/wby-app-config/target/" />
+    <ignored path="$PROJECT_DIR$/wby-app-common/target/" />
+    <ignored path="$PROJECT_DIR$/wby-app-algorithms/target/" />
+    <ignored path="$PROJECT_DIR$/wby-app-designmode/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,45 +88,66 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FUSProjectUsageTrigger">
-    <session id="2056943894">
+    <session id="1119797205">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="6" />
-          <entry key="project.open.time.34" value="1" />
-          <entry key="project.open.time.41" value="1" />
-          <entry key="project.open.time.48" value="1" />
-          <entry key="project.open.time.54" value="1" />
-          <entry key="project.open.time.58" value="1" />
-          <entry key="project.open.time.63" value="1" />
+          <entry key="project.closed" value="5" />
+          <entry key="project.open.time.1" value="4" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.9" value="1" />
           <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="30" />
-          <entry key="xml" value="6" />
+          <entry key="class" value="4" />
+          <entry key="html" value="1" />
+          <entry key="java" value="108" />
+          <entry key="pom" value="1" />
+          <entry key="properties" value="4" />
+          <entry key="readme" value="1" />
+          <entry key="xml" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="30" />
-          <entry key="XML" value="6" />
+          <entry key="CLASS" value="4" />
+          <entry key="HTML" value="1" />
+          <entry key="JAVA" value="108" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="Properties" value="4" />
+          <entry key="XML" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="5265" />
+          <entry key="java" value="10543" />
+          <entry key="readme" value="1142" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="5265" />
+          <entry key="JAVA" value="10543" />
+          <entry key="PLAIN_TEXT" value="1142" />
         </counts>
       </usages-collector>
     </session>
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="wby-app" />
+  </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wby-app-modules/wby-app-upms/wby-app-upms-client/src/main/java/com/example/wby/upms/client/concurrent/DebugThread.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="650">
+              <caret line="32" column="32" lean-forward="true" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -98,29 +156,55 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>iterator</find>
+      <find>filter</find>
+      <find>IntegerCache</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="projectSyncType">
+      <map>
+        <entry key="$PROJECT_DIR$/../../gradledemo" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../mulitproject" value="PREVIEW" />
+        <entry key="E:/maven-project-demo/spring-framework" value="PREVIEW" />
+        <entry key="F:/图片服务器修改" value="PREVIEW" />
+        <entry key="F:/客流子功能项目路径1.0.1/IBP/src" value="PREVIEW" />
+        <entry key="F:/客流运营子功能svn项目路径1.0.1/IBP/src" value="PREVIEW" />
+        <entry key="F:/智慧平台1.0.1版本代码svn/IBP/src" value="PREVIEW" />
+        <entry key="P:/study/springboot/wbynets" value="PREVIEW" />
+        <entry key="P:/study/wby/wby-framework" value="PREVIEW" />
+      </map>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/wby-app-modules/wby-app-upms/wby-app-upms-client/src/main/java/com/example/wby/upms/client/concurrent/Count.java" />
-        <option value="$PROJECT_DIR$/wby-app-modules/wby-app-upms/wby-app-upms-client/src/main/java/com/example/wby/upms/client/concurrent/Counter.java" />
-        <option value="$PROJECT_DIR$/wby-app-modules/wby-app-upms/wby-app-upms-client/src/main/java/com/example/wby/upms/client/concurrent/AtomicIntegerDemo.java" />
-        <option value="$PROJECT_DIR$/wby-app-modules/wby-app-upms/wby-app-upms-client/src/main/java/com/example/wby/upms/client/concurrent/MyLock.java" />
-        <option value="$PROJECT_DIR$/wby-app-modules/wby-app-upms/wby-app-upms-client/src/main/java/com/example/wby/upms/client/concurrent/LockCounter.java" />
-        <option value="$PROJECT_DIR$/wby-app-modules/wby-app-upms/wby-app-upms-client/src/main/java/com/example/wby/upms/client/concurrent/LockSupportDemo.java" />
-        <option value="$PROJECT_DIR$/wby-app-modules/wby-app-upms/wby-app-upms-client/src/main/java/com/example/wby/upms/client/concurrent/WaitThread.java" />
-        <option value="$PROJECT_DIR$/wby-app-modules/wby-app-upms/wby-app-upms-client/src/main/java/com/example/wby/upms/client/concurrent/MyBlockingQueue.java" />
-        <option value="$PROJECT_DIR$/wby-app-modules/wby-app-upms/wby-app-upms-client/src/main/java/com/example/wby/upms/client/concurrent/MyCache.java" />
-        <option value="$PROJECT_DIR$/wby-app-modules/wby-app-upms/wby-app-upms-client/src/main/java/com/example/wby/upms/client/concurrent/TestJoin.java" />
-        <option value="$PROJECT_DIR$/wby-app-modules/wby-app-upms/wby-app-upms-client/src/main/java/com/example/wby/upms/client/concurrent/JoinCountDownLatchTest.java" />
-        <option value="$PROJECT_DIR$/wby-app-modules/wby-app-upms/wby-app-upms-client/src/main/java/com/example/wby/upms/client/concurrent/CountDownLatchTest.java" />
-        <option value="$PROJECT_DIR$/wby-app-modules/wby-app-upms/wby-app-upms-client/src/main/java/com/example/wby/upms/client/generic/Pair.java" />
-        <option value="$PROJECT_DIR$/wby-app-modules/wby-app-upms/wby-app-upms-client/src/main/java/com/example/wby/upms/client/generic/Base.java" />
-        <option value="$PROJECT_DIR$/wby-app-modules/wby-app-upms/wby-app-upms-client/src/main/java/com/example/wby/upms/client/generic/Child.java" />
-        <option value="$PROJECT_DIR$/wby-app-modules/wby-app-upms/wby-app-upms-client/src/main/java/com/example/wby/upms/client/generic/NumberPair.java" />
-        <option value="$PROJECT_DIR$/wby-app-modules/wby-app-upms/wby-app-upms-client/src/main/java/com/example/wby/upms/client/generic/DynamicArray.java" />
+        <option value="$PROJECT_DIR$/wby-app-algorithms/src/main/java/number_1/BinarySearch.java" />
+        <option value="$PROJECT_DIR$/wby-app-algorithms/src/main/java/number1/BinarySearch.java" />
+        <option value="$PROJECT_DIR$/wby-app-algorithms/src/main/java/number1/BinarySearchGcd.java" />
+        <option value="$PROJECT_DIR$/wby-app-algorithms/src/main/java/number1/BinarySearchRecursion.java" />
+        <option value="$PROJECT_DIR$/wby-app-algorithms/src/main/java/number1/DoubleLinkedList.java" />
+        <option value="$PROJECT_DIR$/wby-app-algorithms/src/main/java/number1/DrawArrays.java" />
+        <option value="$PROJECT_DIR$/wby-app-algorithms/src/main/java/number1/Evaluate.java" />
+        <option value="$PROJECT_DIR$/wby-app-algorithms/src/main/java/number1/FixedCapacityStack.java" />
+        <option value="$PROJECT_DIR$/wby-app-algorithms/src/main/java/number1/Gcd.java" />
+        <option value="$PROJECT_DIR$/wby-app-algorithms/src/main/java/number1/Plalindrome.java" />
+        <option value="$PROJECT_DIR$/wby-app-algorithms/src/main/java/number1/Queue.java" />
+        <option value="$PROJECT_DIR$/wby-app-algorithms/src/main/java/number1/ResizeArrayStack.java" />
+        <option value="$PROJECT_DIR$/wby-app-algorithms/src/main/java/number1/ReverseLinkedList.java" />
+        <option value="$PROJECT_DIR$/wby-app-algorithms/src/main/java/number1/Stack.java" />
+        <option value="$PROJECT_DIR$/wby-app-algorithms/src/main/java/number2/ComparableDate.java" />
+        <option value="$PROJECT_DIR$/wby-app-algorithms/src/main/java/number2/Heap.java" />
+        <option value="$PROJECT_DIR$/wby-app-algorithms/src/main/java/number2/SituMerge.java" />
+        <option value="$PROJECT_DIR$/wby-app-algorithms/src/main/java/number2/IndexPriorityQueue.java" />
+        <option value="$PROJECT_DIR$/wby-app-algorithms/src/main/java/number2/TestInner.java" />
+        <option value="$PROJECT_DIR$/wby-app-designmode/src/main/resources/readme" />
+        <option value="$PROJECT_DIR$/wby-app-modules/wby-app-upms/wby-app-upms-client/src/main/java/com/example/wby/upms/client/concurrent/DebugThread.java" />
       </list>
     </option>
   </component>
@@ -130,22 +214,29 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="462" />
-    <option name="y" value="40" />
-    <option name="width" value="1269" />
-    <option name="height" value="785" />
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
   </component>
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="2" id="Add" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-5" />
+    <option name="y" value="163" />
+    <option name="width" value="1920" />
+    <option name="height" value="870" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -164,18 +255,140 @@
               <item name="wby-app-modules" type="462c0819:PsiDirectoryNode" />
               <item name="wby-app-upms" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="wby-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wby-app" type="462c0819:PsiDirectoryNode" />
+              <item name="wby-app-modules" type="462c0819:PsiDirectoryNode" />
+              <item name="wby-app-upms" type="462c0819:PsiDirectoryNode" />
+              <item name="wby-app-upms-client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wby-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wby-app" type="462c0819:PsiDirectoryNode" />
+              <item name="wby-app-modules" type="462c0819:PsiDirectoryNode" />
+              <item name="wby-app-upms" type="462c0819:PsiDirectoryNode" />
+              <item name="wby-app-upms-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wby-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wby-app" type="462c0819:PsiDirectoryNode" />
+              <item name="wby-app-modules" type="462c0819:PsiDirectoryNode" />
+              <item name="wby-app-upms" type="462c0819:PsiDirectoryNode" />
+              <item name="wby-app-upms-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wby-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wby-app" type="462c0819:PsiDirectoryNode" />
+              <item name="wby-app-modules" type="462c0819:PsiDirectoryNode" />
+              <item name="wby-app-upms" type="462c0819:PsiDirectoryNode" />
+              <item name="wby-app-upms-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wby-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wby-app" type="462c0819:PsiDirectoryNode" />
+              <item name="wby-app-modules" type="462c0819:PsiDirectoryNode" />
+              <item name="wby-app-upms" type="462c0819:PsiDirectoryNode" />
+              <item name="wby-app-upms-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wby-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wby-app" type="462c0819:PsiDirectoryNode" />
+              <item name="wby-app-modules" type="462c0819:PsiDirectoryNode" />
+              <item name="wby-app-upms" type="462c0819:PsiDirectoryNode" />
+              <item name="wby-app-upms-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wby-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wby-app" type="462c0819:PsiDirectoryNode" />
+              <item name="wby-app-modules" type="462c0819:PsiDirectoryNode" />
+              <item name="wby-app-upms" type="462c0819:PsiDirectoryNode" />
+              <item name="wby-app-upms-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="wby" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wby-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wby-app" type="462c0819:PsiDirectoryNode" />
+              <item name="wby-app-modules" type="462c0819:PsiDirectoryNode" />
+              <item name="wby-app-upms" type="462c0819:PsiDirectoryNode" />
+              <item name="wby-app-upms-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="wby" type="462c0819:PsiDirectoryNode" />
+              <item name="upms" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wby-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wby-app" type="462c0819:PsiDirectoryNode" />
+              <item name="wby-app-modules" type="462c0819:PsiDirectoryNode" />
+              <item name="wby-app-upms" type="462c0819:PsiDirectoryNode" />
+              <item name="wby-app-upms-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="wby" type="462c0819:PsiDirectoryNode" />
+              <item name="upms" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wby-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wby-app" type="462c0819:PsiDirectoryNode" />
+              <item name="wby-app-modules" type="462c0819:PsiDirectoryNode" />
+              <item name="wby-app-upms" type="462c0819:PsiDirectoryNode" />
+              <item name="wby-app-upms-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="wby" type="462c0819:PsiDirectoryNode" />
+              <item name="upms" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="concurrent" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="System&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_101/jre/lib/rt.jar!/java/lang/System.class&#10;Arrays&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_101/jre/lib/rt.jar!/java/util/Arrays.class&#10;String&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/lang/String.java&#10;Integer&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_101/jre/lib/rt.jar!/java/lang/Integer.class&#10;ArrayList&#9;PSI&#9;JAVA://java.util.ArrayList" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542533399192" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552039469253" />
+    <property name="last_opened_file_path" value="P:/算法第四版/Algorithms-master/Algorithms/lib/stdlib.jar!/" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -189,10 +402,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CountDownLatchTest">
-    <configuration name="AtomicIntegerDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.wby.upms.client.concurrent.AtomicIntegerDemo" />
+  <component name="RunManager" selected="Application.DebugThread">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DebugThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.wby.upms.client.concurrent.DebugThread" />
       <module name="wby-app-upms-client" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.example.wby.upms.client.concurrent.*" />
@@ -203,9 +423,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CountDownLatchTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.wby.upms.client.concurrent.CountDownLatchTest" />
+    <configuration name="Heap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="number2.Heap" />
+      <module name="wby-app-algorithms" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="number2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReverseLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="number1.ReverseLinkedList" />
+      <module name="wby-app-algorithms" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="number1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SituMerge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="number2.SituMerge" />
+      <module name="wby-app-algorithms" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="number2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.wby.upms.client.concurrent.TestThread" />
       <module name="wby-app-upms-client" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.example.wby.upms.client.concurrent.*" />
@@ -216,44 +479,49 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LockSupportDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.wby.upms.client.concurrent.LockSupportDemo" />
-      <module name="wby-app-upms-client" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.wby.upms.client.concurrent.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WaitThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.wby.upms.client.concurrent.WaitThread" />
-      <module name="wby-app-upms-client" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.wby.upms.client.concurrent.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.AtomicIntegerDemo" />
-      <item itemvalue="Application.LockSupportDemo" />
-      <item itemvalue="Application.WaitThread" />
-      <item itemvalue="Application.CountDownLatchTest" />
+      <item itemvalue="Application.ReverseLinkedList" />
+      <item itemvalue="Application.SituMerge" />
+      <item itemvalue="Application.Heap" />
+      <item itemvalue="Application.TestThread" />
+      <item itemvalue="Application.DebugThread" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CountDownLatchTest" />
-        <item itemvalue="Application.WaitThread" />
-        <item itemvalue="Application.LockSupportDemo" />
-        <item itemvalue="Application.AtomicIntegerDemo" />
+        <item itemvalue="Application.DebugThread" />
+        <item itemvalue="Application.TestThread" />
+        <item itemvalue="Application.Heap" />
+        <item itemvalue="Application.SituMerge" />
+        <item itemvalue="Application.ReverseLinkedList" />
       </list>
     </recent_temporary>
   </component>
@@ -262,51 +530,53 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="c1685fd8-bd98-42c0-8845-8b5701ce8fe5" name="Default Changelist" comment="" />
-      <created>1540212588195</created>
+      <changelist id="fbcbe4d9-a730-440a-a748-800fd4736fb9" name="Default Changelist" comment="" />
+      <created>1547540374958</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1540212588195</updated>
-      <workItem from="1540212618153" duration="5303000" />
-      <workItem from="1540298550052" duration="3370000" />
-      <workItem from="1541252658894" duration="938000" />
-      <workItem from="1541320537717" duration="6973000" />
-      <workItem from="1542522313240" duration="1345000" />
-      <workItem from="1542635145346" duration="256000" />
+      <updated>1547540374958</updated>
+      <workItem from="1547540382553" duration="29973000" />
+      <workItem from="1548051211623" duration="7007000" />
+      <workItem from="1548832502131" duration="6358000" />
+      <workItem from="1550041383585" duration="9248000" />
+      <workItem from="1551351015478" duration="5764000" />
+      <workItem from="1552028829706" duration="4451000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18185000" />
+    <option name="totallyTimeSpent" value="62801000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="462" y="40" width="1269" height="785" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32414368" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info id="Capture Tool" order="6" />
-      <window_info id="Web" order="7" side_tool="true" />
+      <window_info id="Designer" order="0" />
+      <window_info id="Image Layers" order="1" />
+      <window_info id="UI Designer" order="2" />
+      <window_info id="Structure" order="3" sideWeight="0.5033408" side_tool="true" weight="0.15938166" />
+      <window_info id="Favorites" order="4" sideWeight="0.50159746" side_tool="true" weight="0.20309168" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Web" order="6" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="7" sideWeight="0.49665925" visible="true" weight="0.26812366" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32909092" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.24387528" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.38084632" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32909092" />
-      <window_info anchor="bottom" id="Java Enterprise" order="11" />
-      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="7" />
+      <window_info anchor="bottom" id="Spring" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32293987" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.1945629" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Maven Projects" order="5" />
@@ -322,246 +592,543 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <condition expression="Thread.currentThread().getName().equals(&quot;Thread-0&quot;)" language="JAVA" />
+          <url>file://$PROJECT_DIR$/wby-app-modules/wby-app-upms/wby-app-upms-client/src/main/java/com/example/wby/upms/client/concurrent/DebugThread.java</url>
+          <line>11</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/wby-app-modules/wby-app-upms/wby-app-upms-client/src/main/java/com/example/wby/upms/client/concurrent/DebugThread.java</url>
+          <line>17</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/wby-app-modules/wby-app-upms/wby-app-upms-client/src/main/java/com/example/wby/upms/client/concurrent/DebugThread.java</url>
+          <line>21</line>
+          <properties />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/wby-app-modules/wby-app-upms/wby-app-upms-client/src/main/java/com/example/wby/upms/client/concurrent/DebugThread.java</url>
+          <line>27</line>
+          <properties />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/wby-app-modules/wby-app-upms/wby-app-upms-client/src/main/java/com/example/wby/upms/client/concurrent/DebugThread.java</url>
+          <line>30</line>
+          <properties />
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/wby-app-modules/wby-app-upms/wby-app-upms-client/src/main/java/com/example/wby/upms/client/concurrent/DebugThread.java</url>
+          <line>32</line>
+          <properties />
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+      </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+    </breakpoint-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="breakpointCondition">
+      <expression>
+        <expression-string>Thread.currentThread().getName().equals(&quot;Thread-0&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>Thread.currentThread().getName().equals(&quot;main&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>Thread.currentThread().getName().equals(&quot;t3&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>!(Thread.currentThread().getName().equals(&quot;main&quot;))</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>rest</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>first</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>first.next</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>second</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>second.next</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>val.pop() + v</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>val</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>ops</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/wby-app-modules/wby-app-upms/wby-app-upms-client/src/main/java/com/example/wby/upms/client/concurrent/TestThread.java">
+    <entry file="file://$PROJECT_DIR$/wby-app-algorithms/src/main/java/number1/Stack.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        <state relative-caret-position="986">
+          <caret line="66" selection-start-line="66" selection-end-line="66" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+    <entry file="file://$PROJECT_DIR$/wby-app-algorithms/src/main/java/number2/SituMerge.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-6500">
-          <caret line="4" column="12" lean-forward="true" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+        <state relative-caret-position="396">
+          <caret line="18" column="26" lean-forward="true" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wby-app-modules/wby-app-upms/wby-app-upms-client/src/main/java/com/example/wby/upms/client/concurrent/AtomicIntegerDemo.java">
+    <entry file="file://$PROJECT_DIR$/wby-app-algorithms/src/main/java/number2/ComparableDate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="24" column="40" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
+        <state relative-caret-position="286">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wby-app-modules/wby-app-upms/wby-app-upms-client/src/main/java/com/example/wby/upms/client/concurrent/MyLock.java">
+    <entry file="file://$PROJECT_DIR$/wby-app-algorithms/src/main/java/number2/Heap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+        <state relative-caret-position="374">
+          <caret line="17" column="23" lean-forward="true" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wby-app-modules/wby-app-upms/wby-app-upms-client/src/main/java/com/example/wby/upms/client/concurrent/Counter.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/lang/ref/SoftReference.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+        <state relative-caret-position="282">
+          <caret line="63" column="13" selection-start-line="63" selection-start-column="13" selection-end-line="63" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wby-app-modules/wby-app-upms/wby-app-upms-client/src/main/java/com/example/wby/upms/client/concurrent/LockCounter.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/lang/Object.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+        <state relative-caret-position="1024">
+          <caret line="549" column="16" lean-forward="true" selection-start-line="549" selection-start-column="16" selection-end-line="549" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wby-app-modules/wby-app-upms/wby-app-upms-client/src/main/java/com/example/wby/upms/client/concurrent/LockSupportDemo.java">
+    <entry file="file://$PROJECT_DIR$/wby-app-modules/wby-app-upms/wby-app-upms-rpc-api/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="-66" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wby-app-modules/wby-app-upms/wby-app-upms-rpc-api/src/main/java/com/example/wby/upms/rpc/api/UpmsApiServiceMock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wby-app-modules/wby-app-upms/wby-app-upms-client/src/main/java/com/example/wby/upms/client/concurrent/MyBlockingQueue.java">
+    <entry file="file://$PROJECT_DIR$/wby-app-modules/wby-app-upms/wby-app-upms-dao/src/main/java/com/example/wby/upms/mapper/UpmsApiDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-485">
-          <caret line="15" column="39" lean-forward="true" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
+        <state relative-caret-position="132">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wby-app-modules/wby-app-upms/wby-app-upms-client/src/main/java/com/example/wby/upms/client/concurrent/MyCache.java">
+    <entry file="file://$PROJECT_DIR$/wby-app-modules/wby-app-upms/wby-app-upms-rpc-service/src/main/java/com/example/wby/upms/rpc/service/impl/UpmsApiServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-75">
-          <caret line="12" column="16" lean-forward="true" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wby-app-modules/wby-app-upms/wby-app-upms-client/src/main/java/com/example/wby/upms/client/concurrent/JoinCountDownLatchTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wby-app-modules/wby-app-upms/wby-app-upms-client/src/main/java/com/example/wby/upms/client/concurrent/CountDownLatchTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-91">
-          <caret line="6" column="49" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wby-app-api/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wby-app-modules/wby-app-upms/wby-app-upms-rpc-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-775">
-          <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wby-app-modules/wby-app-upms/wby-app-upms-server/src/main/resources/dubbo-consumer.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-178" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wby-app-modules/wby-app-upms/wby-app-upms-server/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="22" column="55" lean-forward="true" selection-start-line="22" selection-start-column="55" selection-end-line="22" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wby-app-modules/wby-app-upms/wby-app-upms-client/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="447">
-          <caret line="30" column="35" lean-forward="true" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
+        <state relative-caret-position="198">
+          <caret line="14" column="51" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="51" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wby-app-modules/wby-app-upms/wby-app-upms-rpc-api/src/main/java/com/example/wby/upms/rpc/api/UpmsApiService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
+        <state relative-caret-position="132">
           <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wby-app-modules/wby-app-upms/wby-app-upms-rpc-service/src/main/java/com/example/wby/upms/rpc/UpmsRpcServiceApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="26" column="55" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wby-app-modules/wby-app-upms/wby-app-upms-rpc-service/src/main/resources/dubbo-provider.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="19" column="93" selection-start-line="19" selection-start-column="75" selection-end-line="19" selection-end-column="93" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wby-app-modules/wby-app-upms/wby-app-upms-server/src/main/resources/dubbo-consumer.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" column="39" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="39" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wby-app-modules/wby-app-upms/wby-app-upms-server/src/main/java/com/example/wby/upms/server/base/controller/manage/UpmsUserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="28" column="18" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
+        <state relative-caret-position="396">
+          <caret line="31" column="44" lean-forward="true" selection-start-line="31" selection-start-column="44" selection-end-line="31" selection-end-column="44" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_92/src.zip!/java/lang/System.java">
+    <entry file="file://$PROJECT_DIR$/wby-app-config/wby-app-activemq/src/main/java/com/example/wby/ActivemqConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="492" column="30" selection-start-line="492" selection-start-column="30" selection-end-line="492" selection-end-column="30" />
+        <state relative-caret-position="418">
+          <caret line="24" column="23" lean-forward="true" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_92/src.zip!/java/util/Arrays.java">
+    <entry file="file://$PROJECT_DIR$/wby-app-config/wby-app-activemq/src/main/java/com/example/wby/util/ActiveMqUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="3212" column="18" lean-forward="true" selection-start-line="3212" selection-start-column="18" selection-end-line="3212" selection-end-column="18" />
+        <state relative-caret-position="88">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_92/src.zip!/java/lang/Byte.java">
+    <entry file="file://$PROJECT_DIR$/wby-app-config/wby-app-datasource/src/main/java/com/example/wby/datasource/WbyDatasourceConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wby-app-config/wby-app-datasource/src/main/java/com/example/wby/datasource/Application.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="43" column="38" selection-start-line="43" selection-start-column="32" selection-end-line="43" selection-end-column="38" />
+        <state relative-caret-position="110">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wby-app-modules/wby-app-upms/wby-app-upms-client/src/main/java/com/example/wby/upms/client/generic/DynamicArray.java">
+    <entry file="file://$PROJECT_DIR$/wby-app-config/wby-app-datasource/src/main/java/com/example/wby/datasource/config/DataSourceConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-825">
-          <caret line="87" column="5" selection-start-line="87" selection-start-column="5" selection-end-line="87" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#ensureCapacity#0;class#DynamicArray#0" />
-            <element signature="method#add#0;class#DynamicArray#0" />
-            <element signature="method#set#0;class#DynamicArray#0" />
-            <element signature="method#indexOf#0;class#DynamicArray#0" />
-            <element signature="method#makePair#0;class#DynamicArray#0" />
-            <element signature="method#addAll#0;class#DynamicArray#0" />
-            <element signature="method#indexOf#1;class#DynamicArray#0" />
-            <element signature="method#copyTo#0;class#DynamicArray#0" />
-          </folding>
+        <state relative-caret-position="550">
+          <caret line="44" column="31" selection-start-line="44" selection-start-column="19" selection-end-line="44" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wby-app-modules/wby-app-upms/wby-app-upms-client/src/main/java/com/example/wby/upms/client/generic/NumberPair.java">
+    <entry file="file://$PROJECT_DIR$/wby-app-config/wby-app-redis/src/main/java/com/example/wby/redis/config/RedisConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="625">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
-          <folding>
-            <element signature="e#168#169#0" expanded="true" />
-            <element signature="e#204#205#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="198">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wby-app-modules/wby-app-upms/wby-app-upms-client/src/main/java/com/example/wby/upms/client/generic/Base.java">
+    <entry file="file://$PROJECT_DIR$/wby-app-modules/wby-app-cms/wby-app-cms-rpc-service/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wby-app-modules/wby-app-upms/wby-app-upms-rpc-service/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
-          <folding>
-            <element signature="e#154#155#0" expanded="true" />
-            <element signature="e#196#197#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-132" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wby-app-modules/wby-app-upms/wby-app-upms-client/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wby-app-modules/wby-app-upms/wby-app-upms-client/src/main/java/com/example/wby/upms/client/generic/Child.java">
+    <entry file="file://$PROJECT_DIR$/wby-app-modules/wby-app-upms/wby-app-upms-server/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
-          <folding>
-            <element signature="e#113#114#0" expanded="true" />
-            <element signature="e#145#146#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="440">
+          <caret line="29" column="43" selection-start-line="29" selection-start-column="37" selection-end-line="29" selection-end-column="43" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wby-app-modules/wby-app-upms/wby-app-upms-client/src/main/java/com/example/wby/upms/client/generic/Pair.java">
+    <entry file="file://$PROJECT_DIR$/wby-app-algorithms/src/main/java/number2/IndexPriorityQueue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-          <folding>
-            <element signature="e#225#226#0" expanded="true" />
-            <element signature="e#253#254#0" expanded="true" />
-            <element signature="e#281#282#0" expanded="true" />
-            <element signature="e#310#311#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="220">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_92/src.zip!/java/lang/String.java">
+    <entry file="file://$PROJECT_DIR$/wby-app-algorithms/src/main/java/number2/TestInner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1875">
-          <caret line="110" column="19" selection-start-line="110" selection-start-column="19" selection-end-line="110" selection-end-column="19" />
+        <state relative-caret-position="506">
+          <caret line="23" column="9" lean-forward="true" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_92/src.zip!/java/lang/Integer.java">
+    <entry file="file://$PROJECT_DIR$/wby-app-algorithms/src/main/java/number1/BinarySearchRecursion.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="700">
-          <caret line="51" column="57" selection-start-line="51" selection-start-column="57" selection-end-line="51" selection-end-column="57" />
+        <state relative-caret-position="176">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_92/src.zip!/java/lang/Comparable.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wby-app-designmode/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wby-app-designmode/src/main/resources/readme">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1800">
-          <caret line="95" column="17" selection-start-line="95" selection-start-column="17" selection-end-line="95" selection-end-column="17" />
+        <state relative-caret-position="154">
+          <caret line="7" column="8" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wby-app-modules/wby-app-upms/wby-app-upms-client/src/main/java/com/example/wby/upms/client/interceptor/LogAspect.java">
+    <entry file="file://$PROJECT_DIR$/wby-app-view/src/main/resources/static/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wby-app-start/src/main/resources/application-dev.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wby-app-start/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wby-app-start/src/main/java/com/example/wby/start/WebApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-422">
-          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+        <state relative-caret-position="110">
+          <caret line="9" column="17" lean-forward="true" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wby-app-common/src/main/java/com/example/wby/common/threadpool/TaskPoolConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="16" column="12" lean-forward="true" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wby-app-common/src/main/java/com/example/wby/common/annotation/BaseService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="31" lean-forward="true" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wby-app-modules/wby-app-upms/wby-app-upms-client/src/main/java/com/example/wby/upms/client/concurrent/AtomicIntegerDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wby-app-modules/wby-app-upms/wby-app-upms-client/src/main/java/com/example/wby/upms/client/concurrent/CountDownLatchTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="20" column="19" lean-forward="true" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wby-app-modules/wby-app-upms/wby-app-upms-client/src/main/java/com/example/wby/upms/client/concurrent/Counter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wby-app-modules/wby-app-upms/wby-app-upms-client/src/main/java/com/example/wby/upms/client/concurrent/JoinCountDownLatchTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wby-app-modules/wby-app-upms/wby-app-upms-client/src/main/java/com/example/wby/upms/client/concurrent/LockCounter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wby-app-modules/wby-app-upms/wby-app-upms-client/src/main/java/com/example/wby/upms/client/concurrent/MyBlockingQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-110">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wby-app-modules/wby-app-upms/wby-app-upms-client/src/main/java/com/example/wby/upms/client/concurrent/MyCache.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-10">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wby-app-modules/wby-app-upms/wby-app-upms-client/src/main/java/com/example/wby/upms/client/concurrent/MyLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wby-app-modules/wby-app-upms/wby-app-upms-client/src/main/java/com/example/wby/upms/client/concurrent/WaitThread.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
+        <state relative-caret-position="528">
+          <caret line="26" column="20" lean-forward="true" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
         </state>
       </provider>
     </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="136" selection-start-line="136" selection-end-line="136" />
+          <folding>
+            <element signature="e#4677#4678#0" expanded="true" />
+            <element signature="e#4714#4715#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="457" selection-start-line="457" selection-end-line="457" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wby-app-modules/wby-app-upms/wby-app-upms-client/src/main/java/com/example/wby/upms/client/concurrent/TestThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="746" selection-start-line="746" selection-end-line="746" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wby-app-modules/wby-app-upms/wby-app-upms-client/src/main/java/com/example/wby/upms/client/concurrent/DebugThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="650">
+          <caret line="32" column="32" lean-forward="true" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>wby-app-start:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>wby-app</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: ch.qos.logback:logback-classic:1.1.11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

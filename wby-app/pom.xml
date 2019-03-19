@@ -48,6 +48,8 @@
         <module>wby-app-start</module>
         <module>wby-app-view</module>
         <module>wby-app-config</module>
+        <module>wby-app-algorithms</module>
+        <module>wby-app-designmode</module>
     </modules>
 
     <!--<build>
