@@ -1,0 +1,16 @@
+大概意思就是说starter是一种对依赖的synthesize（合成），这是什么意思呢？我可以举个例子来说明。
+
+传统的做法
+在没有starter之前，假如我想要在Spring中使用jpa，那我可能需要做以下操作：
+
+在Maven中引入使用的数据库的依赖（即JDBC的jar）
+引入jpa的依赖
+在xxx.xml中配置一些属性信息
+反复的调试直到可以正常运行
+
+
+starter的实现：虽然不同的starter实现起来各有差异，但是他们基本上都会使用到两个相同的内容：ConfigurationProperties和AutoConfiguration。
+因为Spring Boot坚信“约定大于配置”这一理念，所以我们使用ConfigurationProperties来保存我们的配置，
+并且这些配置都可以有一个默认值，即在我们没有主动覆写原始配置的情况下，默认值就会生效，这在很多情况下是非常有用的。
+除此之外，starter的ConfigurationProperties还使得所有的配置属性被聚集到一个文件中（一般在resources目录下的application.properties），
+这样我们就告别了Spring项目中XML地狱。

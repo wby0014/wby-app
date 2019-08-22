@@ -39,6 +39,7 @@
       <module fileurl="file://$PROJECT_DIR$/wby-app-modules/wby-app-user/wby-app-user-rpc-service/wby-app-user-rpc-service.iml" filepath="$PROJECT_DIR$/wby-app-modules/wby-app-user/wby-app-user-rpc-service/wby-app-user-rpc-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/wby-app-modules/wby-app-user/wby-app-user-web/wby-app-user-web.iml" filepath="$PROJECT_DIR$/wby-app-modules/wby-app-user/wby-app-user-web/wby-app-user-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/wby-app-view/wby-app-view.iml" filepath="$PROJECT_DIR$/wby-app-view/wby-app-view.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wby-start-web/wby-start-web.iml" filepath="$PROJECT_DIR$/wby-start-web/wby-start-web.iml" />
     </modules>
   </component>
 </project>
