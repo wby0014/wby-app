@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="wby-app-api-common" />
+        <module name="wby-app-cms-rpc-api" />
         <module name="wby-app-datasource" />
         <module name="wby-app-upms-common" />
         <module name="wby-app-designmode" />
@@ -19,10 +20,9 @@
         <module name="wby-app-cms-dao" />
         <module name="wby-app-cms-common" />
         <module name="wby-app-api-server" />
-        <module name="wby-app-upms-rpc-api" />
         <module name="wby-app-user-dao" />
         <module name="wby-app-cms-admin" />
-        <module name="wby-app-cms-rpc-api" />
+        <module name="wby-app-upms-rpc-api" />
         <module name="wby-app-upms-client" />
         <module name="wby-app-upms-server" />
         <module name="wby-app-algorithms" />
@@ -77,7 +77,7 @@
       <module name="wby-app-user-rpc-service" target="1.8" />
       <module name="wby-app-user-web" target="1.7" />
       <module name="wby-app-view" target="1.8" />
-      <module name="wby-start-web" target="1.5" />
+      <module name="wby-start-web" target="8" />
     </bytecodeTargetLevel>
   </component>
 </project>
