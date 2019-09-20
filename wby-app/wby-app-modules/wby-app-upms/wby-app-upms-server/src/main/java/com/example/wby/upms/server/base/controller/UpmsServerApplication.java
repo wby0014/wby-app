@@ -1,12 +1,11 @@
 package com.example.wby.upms.server.base.controller;
 
-import org.mybatis.spring.annotation.MapperScan;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
-import org.springframework.boot.web.support.SpringBootServletInitializer;
+import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.ImportResource;
 
@@ -16,7 +15,7 @@ import org.springframework.context.annotation.ImportResource;
  */
 @ComponentScan(basePackages= {"com.example"})
 @ImportResource({"classpath:dubbo-consumer.xml"})
-@MapperScan(basePackages= {"com.example.wby.**.mapper"})
+//@MapperScan(basePackages= {"com.example.wby.**.mapper"})
 @SpringBootApplication
 public class UpmsServerApplication extends SpringBootServletInitializer {
 

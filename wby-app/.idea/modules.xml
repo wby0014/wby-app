@@ -24,6 +24,7 @@
       <module fileurl="file://$PROJECT_DIR$/wby-app-config/wby-app-exception/wby-app-exception.iml" filepath="$PROJECT_DIR$/wby-app-config/wby-app-exception/wby-app-exception.iml" />
       <module fileurl="file://$PROJECT_DIR$/wby-app-modules/wby-app-modules.iml" filepath="$PROJECT_DIR$/wby-app-modules/wby-app-modules.iml" />
       <module fileurl="file://$PROJECT_DIR$/wby-app-config/wby-app-redis/wby-app-redis.iml" filepath="$PROJECT_DIR$/wby-app-config/wby-app-redis/wby-app-redis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wby-app-config/wby-app-rocketmq/wby-app-rocketmq.iml" filepath="$PROJECT_DIR$/wby-app-config/wby-app-rocketmq/wby-app-rocketmq.iml" />
       <module fileurl="file://$PROJECT_DIR$/wby-app-start/wby-app-start.iml" filepath="$PROJECT_DIR$/wby-app-start/wby-app-start.iml" />
       <module fileurl="file://$PROJECT_DIR$/wby-app-modules/wby-app-upms/wby-app-upms.iml" filepath="$PROJECT_DIR$/wby-app-modules/wby-app-upms/wby-app-upms.iml" />
       <module fileurl="file://$PROJECT_DIR$/wby-app-modules/wby-app-upms/wby-app-upms-client/wby-app-upms-client.iml" filepath="$PROJECT_DIR$/wby-app-modules/wby-app-upms/wby-app-upms-client/wby-app-upms-client.iml" />

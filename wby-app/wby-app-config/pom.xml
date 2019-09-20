@@ -16,6 +16,7 @@
         <module>wby-app-datasource</module>
         <module>wby-app-exception</module>
         <module>wby-app-activemq</module>
+        <module>wby-app-rocketmq</module>
     </modules>
 
 

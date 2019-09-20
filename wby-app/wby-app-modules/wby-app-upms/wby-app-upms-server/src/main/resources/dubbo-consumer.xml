@@ -9,13 +9,13 @@
 
     <dubbo:application name="wby-app-upms-server"/>
 
-    <dubbo:registry address="zookeeper://127.0.0.1:2181"/>
+    <dubbo:registry address="zookeeper://127.0.0.1:2181" register="false"/>
 
     <dubbo:protocol name="dubbo" port="20881"/>
     <!-- 订阅服务 -->
     <dubbo:consumer check="false"/>
 
-    <!-- 用户 -->
-    <dubbo:reference id="upmsApiService" interface="com.example.wby.upms.rpc.api.UpmsApiService" mock="true"/>
+    <!-- url可以跳过注册中心，直连方式 -->
+    <dubbo:reference id="upmsApiService" interface="com.example.wby.upms.rpc.api.UpmsApiService" mock="true" url="dubbo://localhost:20881"/>
 
 </beans>

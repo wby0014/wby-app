@@ -9,7 +9,8 @@
 
     <dubbo:application name="zheng-upms-rpc-service"/>
 
-    <dubbo:registry address="zookeeper://127.0.0.1:2181"/>
+    <!--register=false 表示只订阅，不注册 -->
+    <dubbo:registry address="zookeeper://127.0.0.1:2181" register="false"/>
 
     <dubbo:protocol name="dubbo" port="20881"/>
 

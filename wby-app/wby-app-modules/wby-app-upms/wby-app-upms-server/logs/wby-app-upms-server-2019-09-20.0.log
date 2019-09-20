@@ -1,0 +1,238 @@
+15:03:33.582 | [main] | INFO  | com.example.server.TestRocketMQ | Starting TestRocketMQ on PC-WUBINYU with PID 11040 (started by wubinyu in E:\gitdemo\wby-app\wby-app\wby-app-modules\wby-app-upms\wby-app-upms-server)
+15:03:33.593 | [main] | INFO  | com.example.server.TestRocketMQ | The following profiles are active: dev
+15:03:34.578 | [main] | INFO  | com.alibaba.dubbo.common.logger.LoggerFactory | using logger: com.alibaba.dubbo.common.logger.slf4j.Slf4jLoggerAdapter
+15:03:34.823 | [main] | INFO  | org.springframework.data.repository.config.RepositoryConfigurationDelegate | Multiple Spring Data modules found, entering strict repository configuration mode!
+15:03:34.827 | [main] | INFO  | org.springframework.data.repository.config.RepositoryConfigurationDelegate | Bootstrapping Spring Data repositories in DEFAULT mode.
+15:03:34.900 | [main] | INFO  | org.springframework.data.repository.config.RepositoryConfigurationDelegate | Finished Spring Data repository scanning in 18ms. Found 0 repository interfaces.
+15:03:35.447 | [main] | WARN  | com.alibaba.dubbo.config.spring.extension.SpringExtensionFactory |  [DUBBO] No spring extension(bean) named:defaultCompiler, try to find an extension(bean) of type java.lang.String, dubbo version: 2.6.4, current host: 10.15.65.18
+15:03:35.448 | [main] | WARN  | com.alibaba.dubbo.config.spring.extension.SpringExtensionFactory |  [DUBBO] No spring extension(bean) named:defaultCompiler, type:java.lang.String found, stop get bean., dubbo version: 2.6.4, current host: 10.15.65.18
+15:03:35.586 | [main] | INFO  | org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker | Bean 'com.alibaba.dubbo.config.ConsumerConfig' of type [com.alibaba.dubbo.config.ConsumerConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:03:35.591 | [main] | INFO  | org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker | Bean 'wby-app-upms-server' of type [com.alibaba.dubbo.config.ApplicationConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:03:35.597 | [main] | INFO  | org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker | Bean 'com.alibaba.dubbo.config.RegistryConfig' of type [com.alibaba.dubbo.config.RegistryConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:03:35.599 | [main] | INFO  | org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker | Bean 'upmsApiService' of type [com.alibaba.dubbo.config.spring.ReferenceBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:03:35.732 | [main] | INFO  | org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker | Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$4b76ad96] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:03:37.002 | [main] | WARN  | com.alibaba.dubbo.remoting.transport.AbstractClient |  [DUBBO] Failed to start NettyClient PC-WUBINYU/10.15.65.18 connect to the server localhost/127.0.0.1:20881 (check == false, ignore and retry later!), cause: client(url: dubbo://localhost:20881/com.example.wby.upms.rpc.api.UpmsApiService?application=wby-app-upms-server&codec=dubbo&default.check=false&dubbo=2.0.2&heartbeat=60000&interface=com.example.wby.upms.rpc.api.UpmsApiService&methods=selectUpmsApiInfo&mock=true&pid=11040&register.ip=10.15.65.18&side=consumer&timestamp=1568963015852) failed to connect to server localhost/127.0.0.1:20881, error message is:Connection refused: no further information, dubbo version: 2.6.4, current host: 10.15.65.18
+com.alibaba.dubbo.remoting.RemotingException: client(url: dubbo://localhost:20881/com.example.wby.upms.rpc.api.UpmsApiService?application=wby-app-upms-server&codec=dubbo&default.check=false&dubbo=2.0.2&heartbeat=60000&interface=com.example.wby.upms.rpc.api.UpmsApiService&methods=selectUpmsApiInfo&mock=true&pid=11040&register.ip=10.15.65.18&side=consumer&timestamp=1568963015852) failed to connect to server localhost/127.0.0.1:20881, error message is:Connection refused: no further information
+	at com.alibaba.dubbo.remoting.transport.netty.NettyClient.doConnect(NettyClient.java:124)
+	at com.alibaba.dubbo.remoting.transport.AbstractClient.connect(AbstractClient.java:275)
+	at com.alibaba.dubbo.remoting.transport.AbstractClient.<init>(AbstractClient.java:89)
+	at com.alibaba.dubbo.remoting.transport.netty.NettyClient.<init>(NettyClient.java:59)
+	at com.alibaba.dubbo.remoting.transport.netty.NettyTransporter.connect(NettyTransporter.java:37)
+	at com.alibaba.dubbo.remoting.Transporter$Adaptive.connect(Transporter$Adaptive.java)
+	at com.alibaba.dubbo.remoting.Transporters.connect(Transporters.java:75)
+	at com.alibaba.dubbo.remoting.exchange.support.header.HeaderExchanger.connect(HeaderExchanger.java:39)
+	at com.alibaba.dubbo.remoting.exchange.Exchangers.connect(Exchangers.java:109)
+	at com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol.initClient(DubboProtocol.java:417)
+	at com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol.getSharedClient(DubboProtocol.java:384)
+	at com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol.getClients(DubboProtocol.java:355)
+	at com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol.refer(DubboProtocol.java:337)
+	at com.alibaba.dubbo.qos.protocol.QosProtocolWrapper.refer(QosProtocolWrapper.java:71)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper.refer(ProtocolFilterWrapper.java:108)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolListenerWrapper.refer(ProtocolListenerWrapper.java:67)
+	at com.alibaba.dubbo.rpc.Protocol$Adaptive.refer(Protocol$Adaptive.java)
+	at com.alibaba.dubbo.config.ReferenceConfig.createProxy(ReferenceConfig.java:394)
+	at com.alibaba.dubbo.config.ReferenceConfig.init(ReferenceConfig.java:333)
+	at com.alibaba.dubbo.config.ReferenceConfig.get(ReferenceConfig.java:163)
+	at com.alibaba.dubbo.config.spring.ReferenceBean.getObject(ReferenceBean.java:66)
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.doGetObjectFromFactoryBean(FactoryBeanRegistrySupport.java:171)
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.getObjectFromFactoryBean(FactoryBeanRegistrySupport.java:101)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getObjectForBeanInstance(AbstractBeanFactory.java:1674)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getObjectForBeanInstance(AbstractAutowireCapableBeanFactory.java:1249)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:257)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.addCandidateEntry(DefaultListableBeanFactory.java:1474)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1214)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1171)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:593)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:374)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1411)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:592)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:845)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:877)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:743)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:390)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:120)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:117)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:108)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:190)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:132)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.jboss.netty.channel.socket.nio.NioClientSocketPipelineSink$Boss.connect(NioClientSocketPipelineSink.java:384)
+	at org.jboss.netty.channel.socket.nio.NioClientSocketPipelineSink$Boss.processSelectedKeys(NioClientSocketPipelineSink.java:354)
+	at org.jboss.netty.channel.socket.nio.NioClientSocketPipelineSink$Boss.run(NioClientSocketPipelineSink.java:276)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+15:03:37.096 | [main] | INFO  | com.alibaba.dubbo.config.AbstractConfig |  [DUBBO] Refer dubbo service com.example.wby.upms.rpc.api.UpmsApiService from url dubbo://localhost:20881/com.example.wby.upms.rpc.api.UpmsApiService?application=wby-app-upms-server&default.check=false&dubbo=2.0.2&interface=com.example.wby.upms.rpc.api.UpmsApiService&methods=selectUpmsApiInfo&mock=true&pid=11040&register.ip=10.15.65.18&side=consumer&timestamp=1568963015852, dubbo version: 2.6.4, current host: 10.15.65.18
+15:03:37.697 | [main] | INFO  | org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor | Initializing ExecutorService 'taskExecutor'
+15:03:37.701 | [main] | INFO  | com.example.wby.datasource.config.DataSourceConfig | >>>>>>>开始配置主数据源<<<<<<
+15:03:37.766 | [main] | INFO  | com.example.wby.datasource.config.DataSourceConfig | >>>>>>>开始配置从数据源<<<<<<
+15:03:39.005 | [DubboClientReconnectTimer-thread-1] | WARN  | com.alibaba.dubbo.remoting.transport.AbstractClient |  [DUBBO] client reconnect to localhost:20881 find error . url: dubbo://localhost:20881/com.example.wby.upms.rpc.api.UpmsApiService?application=wby-app-upms-server&codec=dubbo&default.check=false&dubbo=2.0.2&heartbeat=60000&interface=com.example.wby.upms.rpc.api.UpmsApiService&methods=selectUpmsApiInfo&mock=true&pid=11040&register.ip=10.15.65.18&side=consumer&timestamp=1568963015852, dubbo version: 2.6.4, current host: 10.15.65.18
+com.alibaba.dubbo.remoting.RemotingException: client(url: dubbo://localhost:20881/com.example.wby.upms.rpc.api.UpmsApiService?application=wby-app-upms-server&codec=dubbo&default.check=false&dubbo=2.0.2&heartbeat=60000&interface=com.example.wby.upms.rpc.api.UpmsApiService&methods=selectUpmsApiInfo&mock=true&pid=11040&register.ip=10.15.65.18&side=consumer&timestamp=1568963015852) failed to connect to server localhost/127.0.0.1:20881, error message is:Connection refused: no further information
+	at com.alibaba.dubbo.remoting.transport.netty.NettyClient.doConnect(NettyClient.java:124)
+	at com.alibaba.dubbo.remoting.transport.AbstractClient.connect(AbstractClient.java:275)
+	at com.alibaba.dubbo.remoting.transport.AbstractClient$1.run(AbstractClient.java:156)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset$$$capture(FutureTask.java:308)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.jboss.netty.channel.socket.nio.NioClientSocketPipelineSink$Boss.connect(NioClientSocketPipelineSink.java:384)
+	at org.jboss.netty.channel.socket.nio.NioClientSocketPipelineSink$Boss.processSelectedKeys(NioClientSocketPipelineSink.java:354)
+	at org.jboss.netty.channel.socket.nio.NioClientSocketPipelineSink$Boss.run(NioClientSocketPipelineSink.java:276)
+	... 3 common frames omitted
+15:03:39.480 | [main] | INFO  | com.example.server.TestRocketMQ | Started TestRocketMQ in 6.877 seconds (JVM running for 9.152)
+15:03:39.620 | [main] | ERROR | org.springframework.test.context.TestContextManager | Caught exception while allowing TestExecutionListener [org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@642a7222] to prepare test instance [com.example.server.TestRocketMQ@2166c48a]
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.example.server.TestRocketMQ': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.wby.rocketmq.MQProducer' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.annotation.Resource(shareable=true, lookup=, name=, description=, authenticationType=CONTAINER, type=class java.lang.Object, mappedName=)}
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:324)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1411)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireBeanProperties(AbstractAutowireCapableBeanFactory.java:391)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:119)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83)
+	at org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener.prepareTestInstance(SpringBootDependencyInjectionTestExecutionListener.java:43)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.wby.rocketmq.MQProducer' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.annotation.Resource(shareable=true, lookup=, name=, description=, authenticationType=CONTAINER, type=class java.lang.Object, mappedName=)}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1658)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1217)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1171)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:520)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:496)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:636)
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:180)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:321)
+	... 26 common frames omitted
+15:03:39.672 | [DubboShutdownHook] | INFO  | com.alibaba.dubbo.config.DubboShutdownHook |  [DUBBO] Run shutdown hook now., dubbo version: 2.6.4, current host: 10.15.65.18
+15:03:39.677 | [DubboShutdownHook] | INFO  | com.alibaba.dubbo.registry.support.AbstractRegistryFactory |  [DUBBO] Close all registries [], dubbo version: 2.6.4, current host: 10.15.65.18
+15:03:39.677 | [DubboShutdownHook] | INFO  | com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol |  [DUBBO] Close dubbo connect: 10.15.65.18:0-->localhost/127.0.0.1:20881, dubbo version: 2.6.4, current host: 10.15.65.18
+15:03:39.688 | [DubboShutdownHook] | INFO  | com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol |  [DUBBO] Close dubbo connect: 10.15.65.18:0-->localhost:20881, dubbo version: 2.6.4, current host: 10.15.65.18
+15:03:39.689 | [DubboShutdownHook] | INFO  | com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol |  [DUBBO] Destroy reference: dubbo://localhost:20881/com.example.wby.upms.rpc.api.UpmsApiService?application=wby-app-upms-server&default.check=false&dubbo=2.0.2&interface=com.example.wby.upms.rpc.api.UpmsApiService&methods=selectUpmsApiInfo&mock=true&pid=11040&register.ip=10.15.65.18&side=consumer&timestamp=1568963015852, dubbo version: 2.6.4, current host: 10.15.65.18
+15:03:39.698 | [Thread-2] | INFO  | org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor | Shutting down ExecutorService 'taskExecutor'
+15:05:16.145 | [main] | INFO  | com.example.server.TestRocketMQ | Starting TestRocketMQ on PC-WUBINYU with PID 10252 (started by wubinyu in E:\gitdemo\wby-app\wby-app\wby-app-modules\wby-app-upms\wby-app-upms-server)
+15:05:16.146 | [main] | INFO  | com.example.server.TestRocketMQ | The following profiles are active: dev
+15:05:16.971 | [main] | INFO  | com.alibaba.dubbo.common.logger.LoggerFactory | using logger: com.alibaba.dubbo.common.logger.slf4j.Slf4jLoggerAdapter
+15:05:17.222 | [main] | INFO  | org.springframework.data.repository.config.RepositoryConfigurationDelegate | Multiple Spring Data modules found, entering strict repository configuration mode!
+15:05:17.224 | [main] | INFO  | org.springframework.data.repository.config.RepositoryConfigurationDelegate | Bootstrapping Spring Data repositories in DEFAULT mode.
+15:05:17.266 | [main] | INFO  | org.springframework.data.repository.config.RepositoryConfigurationDelegate | Finished Spring Data repository scanning in 21ms. Found 0 repository interfaces.
+15:05:17.740 | [main] | WARN  | com.alibaba.dubbo.config.spring.extension.SpringExtensionFactory |  [DUBBO] No spring extension(bean) named:defaultCompiler, try to find an extension(bean) of type java.lang.String, dubbo version: 2.6.4, current host: 10.15.65.18
+15:05:17.740 | [main] | WARN  | com.alibaba.dubbo.config.spring.extension.SpringExtensionFactory |  [DUBBO] No spring extension(bean) named:defaultCompiler, type:java.lang.String found, stop get bean., dubbo version: 2.6.4, current host: 10.15.65.18
+15:05:17.876 | [main] | INFO  | org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker | Bean 'com.alibaba.dubbo.config.ConsumerConfig' of type [com.alibaba.dubbo.config.ConsumerConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:05:17.881 | [main] | INFO  | org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker | Bean 'wby-app-upms-server' of type [com.alibaba.dubbo.config.ApplicationConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:05:17.886 | [main] | INFO  | org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker | Bean 'com.alibaba.dubbo.config.RegistryConfig' of type [com.alibaba.dubbo.config.RegistryConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:05:17.887 | [main] | INFO  | org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker | Bean 'upmsApiService' of type [com.alibaba.dubbo.config.spring.ReferenceBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:05:18.007 | [main] | INFO  | org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker | Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$dc51ae5e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:05:18.389 | [main] | INFO  | com.alibaba.dubbo.remoting.transport.AbstractClient |  [DUBBO] Successed connect to server /10.15.65.18:20881 from NettyClient 10.15.65.18 using dubbo version 2.6.4, channel is NettyChannel [channel=[id: 0x357bc488, /10.15.65.18:53819 => /10.15.65.18:20881]], dubbo version: 2.6.4, current host: 10.15.65.18
+15:05:18.389 | [main] | INFO  | com.alibaba.dubbo.remoting.transport.AbstractClient |  [DUBBO] Start NettyClient PC-WUBINYU/10.15.65.18 connect to the server /10.15.65.18:20881, dubbo version: 2.6.4, current host: 10.15.65.18
+15:05:18.442 | [main] | INFO  | com.alibaba.dubbo.config.AbstractConfig |  [DUBBO] Refer dubbo service com.example.wby.upms.rpc.api.UpmsApiService from url dubbo://localhost:20881/com.example.wby.upms.rpc.api.UpmsApiService?application=wby-app-upms-server&default.check=false&dubbo=2.0.2&interface=com.example.wby.upms.rpc.api.UpmsApiService&methods=selectUpmsApiInfo&mock=true&pid=10252&register.ip=10.15.65.18&side=consumer&timestamp=1568963118131, dubbo version: 2.6.4, current host: 10.15.65.18
+15:05:18.920 | [main] | INFO  | org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor | Initializing ExecutorService 'taskExecutor'
+15:05:18.926 | [main] | INFO  | com.example.wby.datasource.config.DataSourceConfig | >>>>>>>开始配置主数据源<<<<<<
+15:05:19.000 | [main] | INFO  | com.example.wby.datasource.config.DataSourceConfig | >>>>>>>开始配置从数据源<<<<<<
+15:05:20.778 | [main] | INFO  | com.example.server.TestRocketMQ | Started TestRocketMQ in 5.663 seconds (JVM running for 7.194)
+15:05:20.849 | [main] | ERROR | org.springframework.test.context.TestContextManager | Caught exception while allowing TestExecutionListener [org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@642a7222] to prepare test instance [com.example.server.TestRocketMQ@2a42019a]
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.example.server.TestRocketMQ': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.wby.rocketmq.MQProducer' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.annotation.Resource(shareable=true, lookup=, name=, description=, authenticationType=CONTAINER, type=class java.lang.Object, mappedName=)}
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:324)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1411)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireBeanProperties(AbstractAutowireCapableBeanFactory.java:391)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:119)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83)
+	at org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener.prepareTestInstance(SpringBootDependencyInjectionTestExecutionListener.java:43)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.wby.rocketmq.MQProducer' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.annotation.Resource(shareable=true, lookup=, name=, description=, authenticationType=CONTAINER, type=class java.lang.Object, mappedName=)}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1658)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1217)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1171)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:520)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:496)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:636)
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:180)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:321)
+	... 26 common frames omitted
+15:05:20.874 | [DubboShutdownHook] | INFO  | com.alibaba.dubbo.config.DubboShutdownHook |  [DUBBO] Run shutdown hook now., dubbo version: 2.6.4, current host: 10.15.65.18
+15:05:20.877 | [DubboShutdownHook] | INFO  | com.alibaba.dubbo.registry.support.AbstractRegistryFactory |  [DUBBO] Close all registries [], dubbo version: 2.6.4, current host: 10.15.65.18
+15:05:20.878 | [DubboShutdownHook] | INFO  | com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol |  [DUBBO] Close dubbo connect: /10.15.65.18:53819-->/10.15.65.18:20881, dubbo version: 2.6.4, current host: 10.15.65.18
+15:05:20.883 | [Thread-2] | INFO  | org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor | Shutting down ExecutorService 'taskExecutor'
+15:05:20.907 | [DubboShutdownHook] | INFO  | com.alibaba.dubbo.remoting.transport.netty.NettyChannel |  [DUBBO] Close netty channel [id: 0x357bc488, /10.15.65.18:53819 => /10.15.65.18:20881], dubbo version: 2.6.4, current host: 10.15.65.18
+15:05:20.915 | [DubboShutdownHook] | INFO  | com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol |  [DUBBO] Close dubbo connect: 10.15.65.18:0-->localhost:20881, dubbo version: 2.6.4, current host: 10.15.65.18
+15:05:20.915 | [DubboShutdownHook] | INFO  | com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol |  [DUBBO] Destroy reference: dubbo://localhost:20881/com.example.wby.upms.rpc.api.UpmsApiService?application=wby-app-upms-server&default.check=false&dubbo=2.0.2&interface=com.example.wby.upms.rpc.api.UpmsApiService&methods=selectUpmsApiInfo&mock=true&pid=10252&register.ip=10.15.65.18&side=consumer&timestamp=1568963118131, dubbo version: 2.6.4, current host: 10.15.65.18
+15:05:20.916 | [DubboSharedHandler-thread-1] | INFO  | com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol |  [DUBBO] disconnected from /10.15.65.18:20881,url:dubbo://localhost:20881/com.example.wby.upms.rpc.api.UpmsApiService?application=wby-app-upms-server&codec=dubbo&default.check=false&dubbo=2.0.2&heartbeat=60000&interface=com.example.wby.upms.rpc.api.UpmsApiService&methods=selectUpmsApiInfo&mock=true&pid=10252&register.ip=10.15.65.18&side=consumer&timestamp=1568963118131, dubbo version: 2.6.4, current host: 10.15.65.18

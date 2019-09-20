@@ -1,0 +1,444 @@
+14:11:24.305 | [main] | INFO  | com.example.wby.upms.server.base.controller.UpmsServerApplication | Starting UpmsServerApplication on PC-WUBINYU with PID 10612 (E:\gitdemo\wby-app\wby-app\wby-app-modules\wby-app-upms\wby-app-upms-server\target\classes started by wubinyu in E:\gitdemo\wby-app\wby-app)
+14:11:24.305 | [main] | DEBUG | com.example.wby.upms.server.base.controller.UpmsServerApplication | Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+14:11:24.305 | [main] | INFO  | com.example.wby.upms.server.base.controller.UpmsServerApplication | The following profiles are active: dev
+14:11:25.066 | [main] | INFO  | com.alibaba.dubbo.common.logger.LoggerFactory | using logger: com.alibaba.dubbo.common.logger.slf4j.Slf4jLoggerAdapter
+14:11:25.256 | [main] | INFO  | org.springframework.data.repository.config.RepositoryConfigurationDelegate | Multiple Spring Data modules found, entering strict repository configuration mode!
+14:11:25.258 | [main] | INFO  | org.springframework.data.repository.config.RepositoryConfigurationDelegate | Bootstrapping Spring Data repositories in DEFAULT mode.
+14:11:25.286 | [main] | INFO  | org.springframework.data.repository.config.RepositoryConfigurationDelegate | Finished Spring Data repository scanning in 15ms. Found 0 repository interfaces.
+14:11:25.565 | [main] | WARN  | com.alibaba.dubbo.config.spring.extension.SpringExtensionFactory |  [DUBBO] No spring extension(bean) named:defaultCompiler, try to find an extension(bean) of type java.lang.String, dubbo version: 2.6.4, current host: 10.15.65.18
+14:11:25.565 | [main] | WARN  | com.alibaba.dubbo.config.spring.extension.SpringExtensionFactory |  [DUBBO] No spring extension(bean) named:defaultCompiler, type:java.lang.String found, stop get bean., dubbo version: 2.6.4, current host: 10.15.65.18
+14:11:25.685 | [main] | INFO  | org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker | Bean 'com.alibaba.dubbo.config.ConsumerConfig' of type [com.alibaba.dubbo.config.ConsumerConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:11:25.690 | [main] | INFO  | org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker | Bean 'wby-app-upms-server' of type [com.alibaba.dubbo.config.ApplicationConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:11:25.696 | [main] | INFO  | org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker | Bean 'com.alibaba.dubbo.config.RegistryConfig' of type [com.alibaba.dubbo.config.RegistryConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:11:25.697 | [main] | INFO  | org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker | Bean 'upmsApiService' of type [com.alibaba.dubbo.config.spring.ReferenceBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:11:25.811 | [main] | INFO  | org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker | Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$8d7b12d8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:11:26.173 | [main] | INFO  | org.springframework.boot.web.embedded.tomcat.TomcatWebServer | Tomcat initialized with port(s): 8080 (http)
+14:11:26.186 | [main] | INFO  | org.apache.coyote.http11.Http11NioProtocol | Initializing ProtocolHandler ["http-nio-8080"]
+14:11:26.194 | [main] | INFO  | org.apache.catalina.core.StandardService | Starting service [Tomcat]
+14:11:26.195 | [main] | INFO  | org.apache.catalina.core.StandardEngine | Starting Servlet engine: [Apache Tomcat/9.0.22]
+14:11:26.330 | [main] | INFO  | org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] | Initializing Spring embedded WebApplicationContext
+14:11:26.331 | [main] | INFO  | org.springframework.web.context.ContextLoader | Root WebApplicationContext: initialization completed in 1964 ms
+14:11:26.735 | [main] | INFO  | com.alibaba.dubbo.qos.server.Server |  [DUBBO] qos-server bind localhost:22222, dubbo version: 2.6.4, current host: 10.15.65.18
+14:11:26.750 | [main] | WARN  | org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext | Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'upmsUserController': Unsatisfied dependency expressed through field 'upmsApiService'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'upmsApiService': FactoryBean threw exception on object creation; nested exception is java.lang.NoClassDefFoundError: org/apache/curator/framework/CuratorFrameworkFactory
+14:11:26.753 | [main] | INFO  | org.apache.catalina.core.StandardService | Stopping service [Tomcat]
+14:11:26.774 | [main] | INFO  | org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener | 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+14:11:26.785 | [main] | ERROR | org.springframework.boot.SpringApplication | Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'upmsUserController': Unsatisfied dependency expressed through field 'upmsApiService'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'upmsApiService': FactoryBean threw exception on object creation; nested exception is java.lang.NoClassDefFoundError: org/apache/curator/framework/CuratorFrameworkFactory
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:596)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:374)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1411)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:592)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:845)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:877)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:743)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:390)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1214)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1203)
+	at com.example.wby.upms.server.base.controller.UpmsServerApplication.main(UpmsServerApplication.java:26)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'upmsApiService': FactoryBean threw exception on object creation; nested exception is java.lang.NoClassDefFoundError: org/apache/curator/framework/CuratorFrameworkFactory
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.doGetObjectFromFactoryBean(FactoryBeanRegistrySupport.java:178)
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.getObjectFromFactoryBean(FactoryBeanRegistrySupport.java:101)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getObjectForBeanInstance(AbstractBeanFactory.java:1674)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getObjectForBeanInstance(AbstractAutowireCapableBeanFactory.java:1249)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:257)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.addCandidateEntry(DefaultListableBeanFactory.java:1474)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1214)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1171)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:593)
+	... 19 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: org/apache/curator/framework/CuratorFrameworkFactory
+	at com.alibaba.dubbo.remoting.zookeeper.curator.CuratorZookeeperClient.<init>(CuratorZookeeperClient.java:46)
+	at com.alibaba.dubbo.remoting.zookeeper.curator.CuratorZookeeperTransporter.connect(CuratorZookeeperTransporter.java:27)
+	at com.alibaba.dubbo.remoting.zookeeper.ZookeeperTransporter$Adaptive.connect(ZookeeperTransporter$Adaptive.java)
+	at com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry.<init>(ZookeeperRegistry.java:69)
+	at com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistryFactory.createRegistry(ZookeeperRegistryFactory.java:38)
+	at com.alibaba.dubbo.registry.support.AbstractRegistryFactory.getRegistry(AbstractRegistryFactory.java:96)
+	at com.alibaba.dubbo.registry.RegistryFactory$Adaptive.getRegistry(RegistryFactory$Adaptive.java)
+	at com.alibaba.dubbo.registry.integration.RegistryProtocol.refer(RegistryProtocol.java:273)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolListenerWrapper.refer(ProtocolListenerWrapper.java:65)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper.refer(ProtocolFilterWrapper.java:106)
+	at com.alibaba.dubbo.qos.protocol.QosProtocolWrapper.refer(QosProtocolWrapper.java:69)
+	at com.alibaba.dubbo.rpc.Protocol$Adaptive.refer(Protocol$Adaptive.java)
+	at com.alibaba.dubbo.config.ReferenceConfig.createProxy(ReferenceConfig.java:394)
+	at com.alibaba.dubbo.config.ReferenceConfig.init(ReferenceConfig.java:333)
+	at com.alibaba.dubbo.config.ReferenceConfig.get(ReferenceConfig.java:163)
+	at com.alibaba.dubbo.config.spring.ReferenceBean.getObject(ReferenceBean.java:66)
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.doGetObjectFromFactoryBean(FactoryBeanRegistrySupport.java:171)
+	... 30 common frames omitted
+Caused by: java.lang.ClassNotFoundException: org.apache.curator.framework.CuratorFrameworkFactory
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 47 common frames omitted
+14:11:26.788 | [DubboShutdownHook] | INFO  | com.alibaba.dubbo.config.DubboShutdownHook |  [DUBBO] Run shutdown hook now., dubbo version: 2.6.4, current host: 10.15.65.18
+14:11:26.788 | [DubboShutdownHook] | INFO  | com.alibaba.dubbo.registry.support.AbstractRegistryFactory |  [DUBBO] Close all registries [], dubbo version: 2.6.4, current host: 10.15.65.18
+14:13:44.863 | [main] | INFO  | com.example.wby.upms.server.base.controller.UpmsServerApplication | Starting UpmsServerApplication on PC-WUBINYU with PID 7992 (E:\gitdemo\wby-app\wby-app\wby-app-modules\wby-app-upms\wby-app-upms-server\target\classes started by wubinyu in E:\gitdemo\wby-app\wby-app)
+14:13:44.864 | [main] | DEBUG | com.example.wby.upms.server.base.controller.UpmsServerApplication | Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+14:13:44.864 | [main] | INFO  | com.example.wby.upms.server.base.controller.UpmsServerApplication | The following profiles are active: dev
+14:13:45.715 | [main] | INFO  | com.alibaba.dubbo.common.logger.LoggerFactory | using logger: com.alibaba.dubbo.common.logger.slf4j.Slf4jLoggerAdapter
+14:13:45.898 | [main] | INFO  | org.springframework.data.repository.config.RepositoryConfigurationDelegate | Multiple Spring Data modules found, entering strict repository configuration mode!
+14:13:45.900 | [main] | INFO  | org.springframework.data.repository.config.RepositoryConfigurationDelegate | Bootstrapping Spring Data repositories in DEFAULT mode.
+14:13:45.927 | [main] | INFO  | org.springframework.data.repository.config.RepositoryConfigurationDelegate | Finished Spring Data repository scanning in 14ms. Found 0 repository interfaces.
+14:13:46.177 | [main] | WARN  | com.alibaba.dubbo.config.spring.extension.SpringExtensionFactory |  [DUBBO] No spring extension(bean) named:defaultCompiler, try to find an extension(bean) of type java.lang.String, dubbo version: 2.6.4, current host: 10.15.65.18
+14:13:46.178 | [main] | WARN  | com.alibaba.dubbo.config.spring.extension.SpringExtensionFactory |  [DUBBO] No spring extension(bean) named:defaultCompiler, type:java.lang.String found, stop get bean., dubbo version: 2.6.4, current host: 10.15.65.18
+14:13:46.271 | [main] | INFO  | org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker | Bean 'com.alibaba.dubbo.config.ConsumerConfig' of type [com.alibaba.dubbo.config.ConsumerConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:13:46.275 | [main] | INFO  | org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker | Bean 'wby-app-upms-server' of type [com.alibaba.dubbo.config.ApplicationConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:13:46.280 | [main] | INFO  | org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker | Bean 'com.alibaba.dubbo.config.RegistryConfig' of type [com.alibaba.dubbo.config.RegistryConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:13:46.281 | [main] | INFO  | org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker | Bean 'upmsApiService' of type [com.alibaba.dubbo.config.spring.ReferenceBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:13:46.363 | [main] | INFO  | org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker | Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1f34dc9f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:13:46.695 | [main] | INFO  | org.springframework.boot.web.embedded.tomcat.TomcatWebServer | Tomcat initialized with port(s): 8080 (http)
+14:13:46.705 | [main] | INFO  | org.apache.coyote.http11.Http11NioProtocol | Initializing ProtocolHandler ["http-nio-8080"]
+14:13:46.715 | [main] | INFO  | org.apache.catalina.core.StandardService | Starting service [Tomcat]
+14:13:46.715 | [main] | INFO  | org.apache.catalina.core.StandardEngine | Starting Servlet engine: [Apache Tomcat/9.0.22]
+14:13:46.839 | [main] | INFO  | org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] | Initializing Spring embedded WebApplicationContext
+14:13:46.839 | [main] | INFO  | org.springframework.web.context.ContextLoader | Root WebApplicationContext: initialization completed in 1893 ms
+14:13:48.025 | [main] | WARN  | com.alibaba.dubbo.remoting.transport.AbstractClient |  [DUBBO] Failed to start NettyClient PC-WUBINYU/10.15.65.18 connect to the server localhost/127.0.0.1:20881 (check == false, ignore and retry later!), cause: client(url: dubbo://localhost:20881/com.example.wby.upms.rpc.api.UpmsApiService?application=wby-app-upms-server&codec=dubbo&default.check=false&dubbo=2.0.2&heartbeat=60000&interface=com.example.wby.upms.rpc.api.UpmsApiService&methods=selectUpmsApiInfo&mock=true&pid=7992&register.ip=10.15.65.18&side=consumer&timestamp=1568960026922) failed to connect to server localhost/127.0.0.1:20881, error message is:Connection refused: no further information, dubbo version: 2.6.4, current host: 10.15.65.18
+com.alibaba.dubbo.remoting.RemotingException: client(url: dubbo://localhost:20881/com.example.wby.upms.rpc.api.UpmsApiService?application=wby-app-upms-server&codec=dubbo&default.check=false&dubbo=2.0.2&heartbeat=60000&interface=com.example.wby.upms.rpc.api.UpmsApiService&methods=selectUpmsApiInfo&mock=true&pid=7992&register.ip=10.15.65.18&side=consumer&timestamp=1568960026922) failed to connect to server localhost/127.0.0.1:20881, error message is:Connection refused: no further information
+	at com.alibaba.dubbo.remoting.transport.netty.NettyClient.doConnect(NettyClient.java:124)
+	at com.alibaba.dubbo.remoting.transport.AbstractClient.connect(AbstractClient.java:275)
+	at com.alibaba.dubbo.remoting.transport.AbstractClient.<init>(AbstractClient.java:89)
+	at com.alibaba.dubbo.remoting.transport.netty.NettyClient.<init>(NettyClient.java:59)
+	at com.alibaba.dubbo.remoting.transport.netty.NettyTransporter.connect(NettyTransporter.java:37)
+	at com.alibaba.dubbo.remoting.Transporter$Adaptive.connect(Transporter$Adaptive.java)
+	at com.alibaba.dubbo.remoting.Transporters.connect(Transporters.java:75)
+	at com.alibaba.dubbo.remoting.exchange.support.header.HeaderExchanger.connect(HeaderExchanger.java:39)
+	at com.alibaba.dubbo.remoting.exchange.Exchangers.connect(Exchangers.java:109)
+	at com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol.initClient(DubboProtocol.java:417)
+	at com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol.getSharedClient(DubboProtocol.java:384)
+	at com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol.getClients(DubboProtocol.java:355)
+	at com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol.refer(DubboProtocol.java:337)
+	at com.alibaba.dubbo.qos.protocol.QosProtocolWrapper.refer(QosProtocolWrapper.java:71)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolListenerWrapper.refer(ProtocolListenerWrapper.java:67)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper.refer(ProtocolFilterWrapper.java:108)
+	at com.alibaba.dubbo.rpc.Protocol$Adaptive.refer(Protocol$Adaptive.java)
+	at com.alibaba.dubbo.config.ReferenceConfig.createProxy(ReferenceConfig.java:394)
+	at com.alibaba.dubbo.config.ReferenceConfig.init(ReferenceConfig.java:333)
+	at com.alibaba.dubbo.config.ReferenceConfig.get(ReferenceConfig.java:163)
+	at com.alibaba.dubbo.config.spring.ReferenceBean.getObject(ReferenceBean.java:66)
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.doGetObjectFromFactoryBean(FactoryBeanRegistrySupport.java:171)
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.getObjectFromFactoryBean(FactoryBeanRegistrySupport.java:101)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getObjectForBeanInstance(AbstractBeanFactory.java:1674)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getObjectForBeanInstance(AbstractAutowireCapableBeanFactory.java:1249)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:257)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.addCandidateEntry(DefaultListableBeanFactory.java:1474)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1214)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1171)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:593)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:374)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1411)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:592)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:845)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:877)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:743)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:390)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1214)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1203)
+	at com.example.wby.upms.server.base.controller.UpmsServerApplication.main(UpmsServerApplication.java:26)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.jboss.netty.channel.socket.nio.NioClientSocketPipelineSink$Boss.connect(NioClientSocketPipelineSink.java:384)
+	at org.jboss.netty.channel.socket.nio.NioClientSocketPipelineSink$Boss.processSelectedKeys(NioClientSocketPipelineSink.java:354)
+	at org.jboss.netty.channel.socket.nio.NioClientSocketPipelineSink$Boss.run(NioClientSocketPipelineSink.java:276)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+14:13:48.097 | [main] | INFO  | com.alibaba.dubbo.config.AbstractConfig |  [DUBBO] Refer dubbo service com.example.wby.upms.rpc.api.UpmsApiService from url dubbo://localhost:20881/com.example.wby.upms.rpc.api.UpmsApiService?application=wby-app-upms-server&default.check=false&dubbo=2.0.2&interface=com.example.wby.upms.rpc.api.UpmsApiService&methods=selectUpmsApiInfo&mock=true&pid=7992&register.ip=10.15.65.18&side=consumer&timestamp=1568960026922, dubbo version: 2.6.4, current host: 10.15.65.18
+14:13:48.278 | [main] | WARN  | org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext | Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'activemqConfig': Unsatisfied dependency expressed through field 'pooledJmsConnectionFactory'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.apache.activemq.jms.pool.PooledConnectionFactory' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+14:13:48.294 | [main] | INFO  | org.apache.catalina.core.StandardService | Stopping service [Tomcat]
+14:13:48.315 | [main] | INFO  | org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener | 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+14:13:48.488 | [main] | ERROR | org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter | 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field pooledJmsConnectionFactory in com.example.wby.ActivemqConfig required a bean of type 'org.apache.activemq.jms.pool.PooledConnectionFactory' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'org.apache.activemq.jms.pool.PooledConnectionFactory' in your configuration.
+
+14:13:49.139 | [DubboShutdownHook] | INFO  | com.alibaba.dubbo.config.DubboShutdownHook |  [DUBBO] Run shutdown hook now., dubbo version: 2.6.4, current host: 10.15.65.18
+14:13:49.142 | [DubboShutdownHook] | INFO  | com.alibaba.dubbo.registry.support.AbstractRegistryFactory |  [DUBBO] Close all registries [], dubbo version: 2.6.4, current host: 10.15.65.18
+14:13:49.143 | [DubboShutdownHook] | INFO  | com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol |  [DUBBO] Close dubbo connect: 10.15.65.18:0-->localhost/127.0.0.1:20881, dubbo version: 2.6.4, current host: 10.15.65.18
+14:13:50.006 | [DubboClientReconnectTimer-thread-1] | WARN  | com.alibaba.dubbo.remoting.transport.AbstractClient |  [DUBBO] client reconnect to localhost:20881 find error . url: dubbo://localhost:20881/com.example.wby.upms.rpc.api.UpmsApiService?application=wby-app-upms-server&codec=dubbo&default.check=false&dubbo=2.0.2&heartbeat=60000&interface=com.example.wby.upms.rpc.api.UpmsApiService&methods=selectUpmsApiInfo&mock=true&pid=7992&register.ip=10.15.65.18&side=consumer&timestamp=1568960026922, dubbo version: 2.6.4, current host: 10.15.65.18
+com.alibaba.dubbo.remoting.RemotingException: client(url: dubbo://localhost:20881/com.example.wby.upms.rpc.api.UpmsApiService?application=wby-app-upms-server&codec=dubbo&default.check=false&dubbo=2.0.2&heartbeat=60000&interface=com.example.wby.upms.rpc.api.UpmsApiService&methods=selectUpmsApiInfo&mock=true&pid=7992&register.ip=10.15.65.18&side=consumer&timestamp=1568960026922) failed to connect to server localhost/127.0.0.1:20881, error message is:connection timed out
+	at com.alibaba.dubbo.remoting.transport.netty.NettyClient.doConnect(NettyClient.java:124)
+	at com.alibaba.dubbo.remoting.transport.AbstractClient.connect(AbstractClient.java:275)
+	at com.alibaba.dubbo.remoting.transport.AbstractClient$1.run(AbstractClient.java:156)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.ConnectException: connection timed out
+	at org.jboss.netty.channel.socket.nio.NioClientSocketPipelineSink$Boss.processConnectTimeout(NioClientSocketPipelineSink.java:371)
+	at org.jboss.netty.channel.socket.nio.NioClientSocketPipelineSink$Boss.run(NioClientSocketPipelineSink.java:283)
+	... 3 common frames omitted
+14:13:50.009 | [DubboShutdownHook] | INFO  | com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol |  [DUBBO] Close dubbo connect: 10.15.65.18:0-->localhost:20881, dubbo version: 2.6.4, current host: 10.15.65.18
+14:13:50.010 | [DubboShutdownHook] | INFO  | com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol |  [DUBBO] Destroy reference: dubbo://localhost:20881/com.example.wby.upms.rpc.api.UpmsApiService?application=wby-app-upms-server&default.check=false&dubbo=2.0.2&interface=com.example.wby.upms.rpc.api.UpmsApiService&methods=selectUpmsApiInfo&mock=true&pid=7992&register.ip=10.15.65.18&side=consumer&timestamp=1568960026922, dubbo version: 2.6.4, current host: 10.15.65.18
+14:15:05.605 | [main] | INFO  | com.example.wby.upms.server.base.controller.UpmsServerApplication | Starting UpmsServerApplication on PC-WUBINYU with PID 11232 (E:\gitdemo\wby-app\wby-app\wby-app-modules\wby-app-upms\wby-app-upms-server\target\classes started by wubinyu in E:\gitdemo\wby-app\wby-app)
+14:15:05.605 | [main] | DEBUG | com.example.wby.upms.server.base.controller.UpmsServerApplication | Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+14:15:05.605 | [main] | INFO  | com.example.wby.upms.server.base.controller.UpmsServerApplication | The following profiles are active: dev
+14:15:06.602 | [main] | INFO  | com.alibaba.dubbo.common.logger.LoggerFactory | using logger: com.alibaba.dubbo.common.logger.slf4j.Slf4jLoggerAdapter
+14:15:06.795 | [main] | INFO  | org.springframework.data.repository.config.RepositoryConfigurationDelegate | Multiple Spring Data modules found, entering strict repository configuration mode!
+14:15:06.797 | [main] | INFO  | org.springframework.data.repository.config.RepositoryConfigurationDelegate | Bootstrapping Spring Data repositories in DEFAULT mode.
+14:15:06.823 | [main] | INFO  | org.springframework.data.repository.config.RepositoryConfigurationDelegate | Finished Spring Data repository scanning in 14ms. Found 0 repository interfaces.
+14:15:07.068 | [main] | WARN  | com.alibaba.dubbo.config.spring.extension.SpringExtensionFactory |  [DUBBO] No spring extension(bean) named:defaultCompiler, try to find an extension(bean) of type java.lang.String, dubbo version: 2.6.4, current host: 10.15.65.18
+14:15:07.068 | [main] | WARN  | com.alibaba.dubbo.config.spring.extension.SpringExtensionFactory |  [DUBBO] No spring extension(bean) named:defaultCompiler, type:java.lang.String found, stop get bean., dubbo version: 2.6.4, current host: 10.15.65.18
+14:15:07.161 | [main] | INFO  | org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker | Bean 'com.alibaba.dubbo.config.ConsumerConfig' of type [com.alibaba.dubbo.config.ConsumerConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:15:07.166 | [main] | INFO  | org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker | Bean 'wby-app-upms-server' of type [com.alibaba.dubbo.config.ApplicationConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:15:07.170 | [main] | INFO  | org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker | Bean 'com.alibaba.dubbo.config.RegistryConfig' of type [com.alibaba.dubbo.config.RegistryConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:15:07.171 | [main] | INFO  | org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker | Bean 'upmsApiService' of type [com.alibaba.dubbo.config.spring.ReferenceBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:15:07.254 | [main] | INFO  | org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker | Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$3ce6a74b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:15:07.598 | [main] | INFO  | org.springframework.boot.web.embedded.tomcat.TomcatWebServer | Tomcat initialized with port(s): 8080 (http)
+14:15:07.609 | [main] | INFO  | org.apache.coyote.http11.Http11NioProtocol | Initializing ProtocolHandler ["http-nio-8080"]
+14:15:07.617 | [main] | INFO  | org.apache.catalina.core.StandardService | Starting service [Tomcat]
+14:15:07.618 | [main] | INFO  | org.apache.catalina.core.StandardEngine | Starting Servlet engine: [Apache Tomcat/9.0.22]
+14:15:07.739 | [main] | INFO  | org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] | Initializing Spring embedded WebApplicationContext
+14:15:07.740 | [main] | INFO  | org.springframework.web.context.ContextLoader | Root WebApplicationContext: initialization completed in 2086 ms
+14:15:07.929 | [main] | INFO  | com.alibaba.dubbo.remoting.transport.AbstractClient |  [DUBBO] Successed connect to server /10.15.65.18:20881 from NettyClient 10.15.65.18 using dubbo version 2.6.4, channel is NettyChannel [channel=[id: 0x047fbc56, /10.15.65.18:51032 => /10.15.65.18:20881]], dubbo version: 2.6.4, current host: 10.15.65.18
+14:15:07.929 | [main] | INFO  | com.alibaba.dubbo.remoting.transport.AbstractClient |  [DUBBO] Start NettyClient PC-WUBINYU/10.15.65.18 connect to the server /10.15.65.18:20881, dubbo version: 2.6.4, current host: 10.15.65.18
+14:15:07.968 | [main] | INFO  | com.alibaba.dubbo.config.AbstractConfig |  [DUBBO] Refer dubbo service com.example.wby.upms.rpc.api.UpmsApiService from url dubbo://localhost:20881/com.example.wby.upms.rpc.api.UpmsApiService?application=wby-app-upms-server&default.check=false&dubbo=2.0.2&interface=com.example.wby.upms.rpc.api.UpmsApiService&methods=selectUpmsApiInfo&mock=true&pid=11232&register.ip=10.15.65.18&side=consumer&timestamp=1568960107818, dubbo version: 2.6.4, current host: 10.15.65.18
+14:15:08.142 | [main] | WARN  | org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext | Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'activemqConfig': Unsatisfied dependency expressed through field 'pooledJmsConnectionFactory'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.apache.activemq.jms.pool.PooledConnectionFactory' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+14:15:08.157 | [main] | INFO  | org.apache.catalina.core.StandardService | Stopping service [Tomcat]
+14:15:08.175 | [main] | INFO  | org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener | 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+14:15:08.298 | [main] | ERROR | org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter | 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field pooledJmsConnectionFactory in com.example.wby.ActivemqConfig required a bean of type 'org.apache.activemq.jms.pool.PooledConnectionFactory' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'org.apache.activemq.jms.pool.PooledConnectionFactory' in your configuration.
+
+14:15:09.007 | [DubboShutdownHook] | INFO  | com.alibaba.dubbo.config.DubboShutdownHook |  [DUBBO] Run shutdown hook now., dubbo version: 2.6.4, current host: 10.15.65.18
+14:15:09.009 | [DubboShutdownHook] | INFO  | com.alibaba.dubbo.registry.support.AbstractRegistryFactory |  [DUBBO] Close all registries [], dubbo version: 2.6.4, current host: 10.15.65.18
+14:15:09.009 | [DubboShutdownHook] | INFO  | com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol |  [DUBBO] Close dubbo connect: /10.15.65.18:51032-->/10.15.65.18:20881, dubbo version: 2.6.4, current host: 10.15.65.18
+14:15:09.011 | [DubboShutdownHook] | INFO  | com.alibaba.dubbo.remoting.transport.netty.NettyChannel |  [DUBBO] Close netty channel [id: 0x047fbc56, /10.15.65.18:51032 => /10.15.65.18:20881], dubbo version: 2.6.4, current host: 10.15.65.18
+14:15:09.011 | [DubboSharedHandler-thread-1] | INFO  | com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol |  [DUBBO] disconnected from /10.15.65.18:20881,url:dubbo://localhost:20881/com.example.wby.upms.rpc.api.UpmsApiService?application=wby-app-upms-server&codec=dubbo&default.check=false&dubbo=2.0.2&heartbeat=60000&interface=com.example.wby.upms.rpc.api.UpmsApiService&methods=selectUpmsApiInfo&mock=true&pid=11232&register.ip=10.15.65.18&side=consumer&timestamp=1568960107818, dubbo version: 2.6.4, current host: 10.15.65.18
+14:15:09.012 | [DubboShutdownHook] | INFO  | com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol |  [DUBBO] Close dubbo connect: 10.15.65.18:0-->localhost:20881, dubbo version: 2.6.4, current host: 10.15.65.18
+14:15:09.012 | [DubboShutdownHook] | INFO  | com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol |  [DUBBO] Destroy reference: dubbo://localhost:20881/com.example.wby.upms.rpc.api.UpmsApiService?application=wby-app-upms-server&default.check=false&dubbo=2.0.2&interface=com.example.wby.upms.rpc.api.UpmsApiService&methods=selectUpmsApiInfo&mock=true&pid=11232&register.ip=10.15.65.18&side=consumer&timestamp=1568960107818, dubbo version: 2.6.4, current host: 10.15.65.18
+14:21:31.931 | [main] | INFO  | com.example.wby.upms.server.base.controller.UpmsServerApplication | Starting UpmsServerApplication on PC-WUBINYU with PID 11712 (E:\gitdemo\wby-app\wby-app\wby-app-modules\wby-app-upms\wby-app-upms-server\target\classes started by wubinyu in E:\gitdemo\wby-app\wby-app)
+14:21:31.931 | [main] | DEBUG | com.example.wby.upms.server.base.controller.UpmsServerApplication | Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+14:21:31.931 | [main] | INFO  | com.example.wby.upms.server.base.controller.UpmsServerApplication | The following profiles are active: dev
+14:21:32.801 | [main] | INFO  | com.alibaba.dubbo.common.logger.LoggerFactory | using logger: com.alibaba.dubbo.common.logger.slf4j.Slf4jLoggerAdapter
+14:21:32.981 | [main] | INFO  | org.springframework.data.repository.config.RepositoryConfigurationDelegate | Multiple Spring Data modules found, entering strict repository configuration mode!
+14:21:32.984 | [main] | INFO  | org.springframework.data.repository.config.RepositoryConfigurationDelegate | Bootstrapping Spring Data repositories in DEFAULT mode.
+14:21:33.022 | [main] | INFO  | org.springframework.data.repository.config.RepositoryConfigurationDelegate | Finished Spring Data repository scanning in 16ms. Found 0 repository interfaces.
+14:21:33.271 | [main] | WARN  | com.alibaba.dubbo.config.spring.extension.SpringExtensionFactory |  [DUBBO] No spring extension(bean) named:defaultCompiler, try to find an extension(bean) of type java.lang.String, dubbo version: 2.6.4, current host: 10.15.65.18
+14:21:33.272 | [main] | WARN  | com.alibaba.dubbo.config.spring.extension.SpringExtensionFactory |  [DUBBO] No spring extension(bean) named:defaultCompiler, type:java.lang.String found, stop get bean., dubbo version: 2.6.4, current host: 10.15.65.18
+14:21:33.368 | [main] | INFO  | org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker | Bean 'com.alibaba.dubbo.config.ConsumerConfig' of type [com.alibaba.dubbo.config.ConsumerConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:21:33.372 | [main] | INFO  | org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker | Bean 'wby-app-upms-server' of type [com.alibaba.dubbo.config.ApplicationConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:21:33.376 | [main] | INFO  | org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker | Bean 'com.alibaba.dubbo.config.RegistryConfig' of type [com.alibaba.dubbo.config.RegistryConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:21:33.377 | [main] | INFO  | org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker | Bean 'upmsApiService' of type [com.alibaba.dubbo.config.spring.ReferenceBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:21:33.447 | [main] | INFO  | org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker | Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ffbadc3a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:21:33.771 | [main] | INFO  | org.springframework.boot.web.embedded.tomcat.TomcatWebServer | Tomcat initialized with port(s): 8080 (http)
+14:21:33.781 | [main] | INFO  | org.apache.coyote.http11.Http11NioProtocol | Initializing ProtocolHandler ["http-nio-8080"]
+14:21:33.789 | [main] | INFO  | org.apache.catalina.core.StandardService | Starting service [Tomcat]
+14:21:33.789 | [main] | INFO  | org.apache.catalina.core.StandardEngine | Starting Servlet engine: [Apache Tomcat/9.0.22]
+14:21:33.908 | [main] | INFO  | org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] | Initializing Spring embedded WebApplicationContext
+14:21:33.908 | [main] | INFO  | org.springframework.web.context.ContextLoader | Root WebApplicationContext: initialization completed in 1921 ms
+14:21:34.089 | [main] | INFO  | com.alibaba.dubbo.remoting.transport.AbstractClient |  [DUBBO] Successed connect to server /10.15.65.18:20881 from NettyClient 10.15.65.18 using dubbo version 2.6.4, channel is NettyChannel [channel=[id: 0x6940f685, /10.15.65.18:51408 => /10.15.65.18:20881]], dubbo version: 2.6.4, current host: 10.15.65.18
+14:21:34.089 | [main] | INFO  | com.alibaba.dubbo.remoting.transport.AbstractClient |  [DUBBO] Start NettyClient PC-WUBINYU/10.15.65.18 connect to the server /10.15.65.18:20881, dubbo version: 2.6.4, current host: 10.15.65.18
+14:21:34.122 | [main] | INFO  | com.alibaba.dubbo.config.AbstractConfig |  [DUBBO] Refer dubbo service com.example.wby.upms.rpc.api.UpmsApiService from url dubbo://localhost:20881/com.example.wby.upms.rpc.api.UpmsApiService?application=wby-app-upms-server&default.check=false&dubbo=2.0.2&interface=com.example.wby.upms.rpc.api.UpmsApiService&methods=selectUpmsApiInfo&mock=true&pid=11712&register.ip=10.15.65.18&side=consumer&timestamp=1568960493983, dubbo version: 2.6.4, current host: 10.15.65.18
+14:21:34.290 | [main] | INFO  | org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor | Initializing ExecutorService 'taskExecutor'
+14:21:34.294 | [main] | INFO  | com.example.wby.datasource.config.DataSourceConfig | >>>>>>>开始配置主数据源<<<<<<
+14:21:34.325 | [main] | INFO  | com.example.wby.datasource.config.DataSourceConfig | >>>>>>>开始配置从数据源<<<<<<
+14:21:34.934 | [main] | INFO  | org.apache.coyote.http11.Http11NioProtocol | Starting ProtocolHandler ["http-nio-8080"]
+14:21:34.936 | [main] | ERROR | org.apache.catalina.util.LifecycleBase | Failed to start component [Connector[HTTP/1.1-8080]]
+org.apache.catalina.LifecycleException: Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1008)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:227)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.addPreviouslyRemovedConnectors(TomcatWebServer.java:263)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:195)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.startWebServer(ServletWebServerApplicationContext.java:297)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:163)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:552)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:743)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:390)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1214)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1203)
+	at com.example.wby.upms.server.base.controller.UpmsServerApplication.main(UpmsServerApplication.java:26)
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:230)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:213)
+	at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1124)
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:1210)
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:585)
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1005)
+	... 14 common frames omitted
+14:21:34.941 | [main] | INFO  | org.apache.coyote.http11.Http11NioProtocol | Pausing ProtocolHandler ["http-nio-8080"]
+14:21:34.941 | [main] | INFO  | org.apache.catalina.core.StandardService | Stopping service [Tomcat]
+14:21:34.946 | [main] | INFO  | org.apache.catalina.util.LifecycleBase | The stop() method was called on component [StandardServer[-1]] after stop() had already been called. The second call will be ignored.
+14:21:34.946 | [main] | INFO  | org.apache.coyote.http11.Http11NioProtocol | Stopping ProtocolHandler ["http-nio-8080"]
+14:21:34.946 | [main] | INFO  | org.apache.coyote.http11.Http11NioProtocol | Destroying ProtocolHandler ["http-nio-8080"]
+14:21:34.948 | [main] | INFO  | org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener | 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+14:21:34.954 | [main] | ERROR | org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter | 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 8080 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 8080, or configure this application to listen on another port.
+
+14:21:34.957 | [main] | INFO  | org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor | Shutting down ExecutorService 'taskExecutor'
+14:21:35.159 | [DubboShutdownHook] | INFO  | com.alibaba.dubbo.config.DubboShutdownHook |  [DUBBO] Run shutdown hook now., dubbo version: 2.6.4, current host: 10.15.65.18
+14:21:35.160 | [DubboShutdownHook] | INFO  | com.alibaba.dubbo.registry.support.AbstractRegistryFactory |  [DUBBO] Close all registries [], dubbo version: 2.6.4, current host: 10.15.65.18
+14:21:35.161 | [DubboShutdownHook] | INFO  | com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol |  [DUBBO] Close dubbo connect: /10.15.65.18:51408-->/10.15.65.18:20881, dubbo version: 2.6.4, current host: 10.15.65.18
+14:21:35.163 | [DubboShutdownHook] | INFO  | com.alibaba.dubbo.remoting.transport.netty.NettyChannel |  [DUBBO] Close netty channel [id: 0x6940f685, /10.15.65.18:51408 => /10.15.65.18:20881], dubbo version: 2.6.4, current host: 10.15.65.18
+14:21:35.165 | [DubboSharedHandler-thread-1] | INFO  | com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol |  [DUBBO] disconnected from /10.15.65.18:20881,url:dubbo://localhost:20881/com.example.wby.upms.rpc.api.UpmsApiService?application=wby-app-upms-server&codec=dubbo&default.check=false&dubbo=2.0.2&heartbeat=60000&interface=com.example.wby.upms.rpc.api.UpmsApiService&methods=selectUpmsApiInfo&mock=true&pid=11712&register.ip=10.15.65.18&side=consumer&timestamp=1568960493983, dubbo version: 2.6.4, current host: 10.15.65.18
+14:21:35.166 | [DubboShutdownHook] | INFO  | com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol |  [DUBBO] Close dubbo connect: 10.15.65.18:0-->localhost:20881, dubbo version: 2.6.4, current host: 10.15.65.18
+14:21:35.166 | [DubboShutdownHook] | INFO  | com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol |  [DUBBO] Destroy reference: dubbo://localhost:20881/com.example.wby.upms.rpc.api.UpmsApiService?application=wby-app-upms-server&default.check=false&dubbo=2.0.2&interface=com.example.wby.upms.rpc.api.UpmsApiService&methods=selectUpmsApiInfo&mock=true&pid=11712&register.ip=10.15.65.18&side=consumer&timestamp=1568960493983, dubbo version: 2.6.4, current host: 10.15.65.18
+14:23:07.826 | [main] | INFO  | com.example.wby.upms.server.base.controller.UpmsServerApplication | Starting UpmsServerApplication on PC-WUBINYU with PID 11404 (E:\gitdemo\wby-app\wby-app\wby-app-modules\wby-app-upms\wby-app-upms-server\target\classes started by wubinyu in E:\gitdemo\wby-app\wby-app)
+14:23:07.827 | [main] | DEBUG | com.example.wby.upms.server.base.controller.UpmsServerApplication | Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+14:23:07.827 | [main] | INFO  | com.example.wby.upms.server.base.controller.UpmsServerApplication | The following profiles are active: dev
+14:23:08.658 | [main] | INFO  | com.alibaba.dubbo.common.logger.LoggerFactory | using logger: com.alibaba.dubbo.common.logger.slf4j.Slf4jLoggerAdapter
+14:23:08.883 | [main] | INFO  | org.springframework.data.repository.config.RepositoryConfigurationDelegate | Multiple Spring Data modules found, entering strict repository configuration mode!
+14:23:08.886 | [main] | INFO  | org.springframework.data.repository.config.RepositoryConfigurationDelegate | Bootstrapping Spring Data repositories in DEFAULT mode.
+14:23:08.914 | [main] | INFO  | org.springframework.data.repository.config.RepositoryConfigurationDelegate | Finished Spring Data repository scanning in 16ms. Found 0 repository interfaces.
+14:23:09.185 | [main] | WARN  | com.alibaba.dubbo.config.spring.extension.SpringExtensionFactory |  [DUBBO] No spring extension(bean) named:defaultCompiler, try to find an extension(bean) of type java.lang.String, dubbo version: 2.6.4, current host: 10.15.65.18
+14:23:09.186 | [main] | WARN  | com.alibaba.dubbo.config.spring.extension.SpringExtensionFactory |  [DUBBO] No spring extension(bean) named:defaultCompiler, type:java.lang.String found, stop get bean., dubbo version: 2.6.4, current host: 10.15.65.18
+14:23:09.277 | [main] | INFO  | org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker | Bean 'com.alibaba.dubbo.config.ConsumerConfig' of type [com.alibaba.dubbo.config.ConsumerConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:23:09.281 | [main] | INFO  | org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker | Bean 'wby-app-upms-server' of type [com.alibaba.dubbo.config.ApplicationConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:23:09.284 | [main] | INFO  | org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker | Bean 'com.alibaba.dubbo.config.RegistryConfig' of type [com.alibaba.dubbo.config.RegistryConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:23:09.285 | [main] | INFO  | org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker | Bean 'upmsApiService' of type [com.alibaba.dubbo.config.spring.ReferenceBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:23:09.355 | [main] | INFO  | org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker | Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$6bb481ad] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:23:09.687 | [main] | INFO  | org.springframework.boot.web.embedded.tomcat.TomcatWebServer | Tomcat initialized with port(s): 8080 (http)
+14:23:09.698 | [main] | INFO  | org.apache.coyote.http11.Http11NioProtocol | Initializing ProtocolHandler ["http-nio-8080"]
+14:23:09.706 | [main] | INFO  | org.apache.catalina.core.StandardService | Starting service [Tomcat]
+14:23:09.706 | [main] | INFO  | org.apache.catalina.core.StandardEngine | Starting Servlet engine: [Apache Tomcat/9.0.22]
+14:23:09.820 | [main] | INFO  | org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] | Initializing Spring embedded WebApplicationContext
+14:23:09.820 | [main] | INFO  | org.springframework.web.context.ContextLoader | Root WebApplicationContext: initialization completed in 1941 ms
+14:23:09.999 | [main] | INFO  | com.alibaba.dubbo.remoting.transport.AbstractClient |  [DUBBO] Successed connect to server /10.15.65.18:20881 from NettyClient 10.15.65.18 using dubbo version 2.6.4, channel is NettyChannel [channel=[id: 0x11ebb1b6, /10.15.65.18:51525 => /10.15.65.18:20881]], dubbo version: 2.6.4, current host: 10.15.65.18
+14:23:09.999 | [main] | INFO  | com.alibaba.dubbo.remoting.transport.AbstractClient |  [DUBBO] Start NettyClient PC-WUBINYU/10.15.65.18 connect to the server /10.15.65.18:20881, dubbo version: 2.6.4, current host: 10.15.65.18
+14:23:10.036 | [main] | INFO  | com.alibaba.dubbo.config.AbstractConfig |  [DUBBO] Refer dubbo service com.example.wby.upms.rpc.api.UpmsApiService from url dubbo://localhost:20881/com.example.wby.upms.rpc.api.UpmsApiService?application=wby-app-upms-server&default.check=false&dubbo=2.0.2&interface=com.example.wby.upms.rpc.api.UpmsApiService&methods=selectUpmsApiInfo&mock=true&pid=11404&register.ip=10.15.65.18&side=consumer&timestamp=1568960589894, dubbo version: 2.6.4, current host: 10.15.65.18
+14:23:10.208 | [main] | INFO  | org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor | Initializing ExecutorService 'taskExecutor'
+14:23:10.212 | [main] | INFO  | com.example.wby.datasource.config.DataSourceConfig | >>>>>>>开始配置主数据源<<<<<<
+14:23:10.243 | [main] | INFO  | com.example.wby.datasource.config.DataSourceConfig | >>>>>>>开始配置从数据源<<<<<<
+14:23:10.834 | [main] | INFO  | org.apache.coyote.http11.Http11NioProtocol | Starting ProtocolHandler ["http-nio-8080"]
+14:23:10.837 | [main] | ERROR | org.apache.catalina.util.LifecycleBase | Failed to start component [Connector[HTTP/1.1-8080]]
+org.apache.catalina.LifecycleException: Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1008)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:227)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.addPreviouslyRemovedConnectors(TomcatWebServer.java:263)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:195)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.startWebServer(ServletWebServerApplicationContext.java:297)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:163)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:552)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:743)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:390)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1214)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1203)
+	at com.example.wby.upms.server.base.controller.UpmsServerApplication.main(UpmsServerApplication.java:26)
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:230)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:213)
+	at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1124)
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:1210)
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:585)
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1005)
+	... 14 common frames omitted
+14:23:10.841 | [main] | INFO  | org.apache.coyote.http11.Http11NioProtocol | Pausing ProtocolHandler ["http-nio-8080"]
+14:23:10.842 | [main] | INFO  | org.apache.catalina.core.StandardService | Stopping service [Tomcat]
+14:23:10.846 | [main] | INFO  | org.apache.catalina.util.LifecycleBase | The stop() method was called on component [StandardServer[-1]] after stop() had already been called. The second call will be ignored.
+14:23:10.846 | [main] | INFO  | org.apache.coyote.http11.Http11NioProtocol | Stopping ProtocolHandler ["http-nio-8080"]
+14:23:10.846 | [main] | INFO  | org.apache.coyote.http11.Http11NioProtocol | Destroying ProtocolHandler ["http-nio-8080"]
+14:23:10.849 | [main] | INFO  | org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener | 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+14:23:10.854 | [main] | ERROR | org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter | 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 8080 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 8080, or configure this application to listen on another port.
+
+14:23:10.857 | [main] | INFO  | org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor | Shutting down ExecutorService 'taskExecutor'
+14:23:11.076 | [DubboShutdownHook] | INFO  | com.alibaba.dubbo.config.DubboShutdownHook |  [DUBBO] Run shutdown hook now., dubbo version: 2.6.4, current host: 10.15.65.18
+14:23:11.077 | [DubboShutdownHook] | INFO  | com.alibaba.dubbo.registry.support.AbstractRegistryFactory |  [DUBBO] Close all registries [], dubbo version: 2.6.4, current host: 10.15.65.18
+14:23:11.078 | [DubboShutdownHook] | INFO  | com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol |  [DUBBO] Close dubbo connect: /10.15.65.18:51525-->/10.15.65.18:20881, dubbo version: 2.6.4, current host: 10.15.65.18
+14:23:11.079 | [DubboShutdownHook] | INFO  | com.alibaba.dubbo.remoting.transport.netty.NettyChannel |  [DUBBO] Close netty channel [id: 0x11ebb1b6, /10.15.65.18:51525 => /10.15.65.18:20881], dubbo version: 2.6.4, current host: 10.15.65.18
+14:23:11.081 | [DubboShutdownHook] | INFO  | com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol |  [DUBBO] Close dubbo connect: 10.15.65.18:0-->localhost:20881, dubbo version: 2.6.4, current host: 10.15.65.18
+14:23:11.081 | [DubboShutdownHook] | INFO  | com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol |  [DUBBO] Destroy reference: dubbo://localhost:20881/com.example.wby.upms.rpc.api.UpmsApiService?application=wby-app-upms-server&default.check=false&dubbo=2.0.2&interface=com.example.wby.upms.rpc.api.UpmsApiService&methods=selectUpmsApiInfo&mock=true&pid=11404&register.ip=10.15.65.18&side=consumer&timestamp=1568960589894, dubbo version: 2.6.4, current host: 10.15.65.18
+14:23:11.083 | [DubboSharedHandler-thread-1] | INFO  | com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol |  [DUBBO] disconnected from /10.15.65.18:20881,url:dubbo://localhost:20881/com.example.wby.upms.rpc.api.UpmsApiService?application=wby-app-upms-server&codec=dubbo&default.check=false&dubbo=2.0.2&heartbeat=60000&interface=com.example.wby.upms.rpc.api.UpmsApiService&methods=selectUpmsApiInfo&mock=true&pid=11404&register.ip=10.15.65.18&side=consumer&timestamp=1568960589894, dubbo version: 2.6.4, current host: 10.15.65.18

@@ -3,13 +3,12 @@ package com.example.wby.start;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
-import org.springframework.boot.web.servlet.ServletComponentScan;
-import org.springframework.boot.web.support.SpringBootServletInitializer;
+import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
 
 /**
-* @Author wubinyu
-* @Date 2018/10/15 9:44
-*/
+ * @Author wubinyu
+ * @Date 2018/10/15 9:44
+ */
 @SpringBootApplication(scanBasePackages = {"com.example.wby"})
 public class WebApplication extends SpringBootServletInitializer {
 
@@ -20,6 +19,7 @@ public class WebApplication extends SpringBootServletInitializer {
 
     /**
      * 用于支持打成war包部署
+     *
      * @param application
      * @return
      */
@@ -27,6 +27,5 @@ public class WebApplication extends SpringBootServletInitializer {
     protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
         return application.sources(WebApplication.class);
     }
-
 
 }
