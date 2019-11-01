@@ -54,16 +54,16 @@ public abstract class AbstractZookeeper implements Watcher {
 
     public static void main(String[] args) throws Exception {
         ZookeeperOperator zookeeperOperator = new ZookeeperOperator();
-        zookeeperOperator.connect("10.19.160.225");
+        zookeeperOperator.connect("10.19.160.226");
 
         List<String> children = zookeeperOperator.getChildren("/");
         System.out.println(children);
         String testNode = "zookeeper的Java API测试";
-        zookeeperOperator.createNode("/root", "我是root节点");
-        zookeeperOperator.createNode("/root/test", testNode);
-        System.out.println(zookeeperOperator.getChildrenNum("/root/test"));
-        System.out.println(zookeeperOperator.getData("/root/test"));
-        System.out.println(zookeeperOperator.getCTime("/root/test"));
+        zookeeperOperator.createNode("/follow", "我是follow节点");
+        zookeeperOperator.createNode("/follow/test", testNode);
+        System.out.println(zookeeperOperator.getChildrenNum("/follow/test"));
+        System.out.println(zookeeperOperator.getData("/follow/test"));
+        System.out.println(zookeeperOperator.getCTime("/follow/test"));
         System.out.println(zookeeperOperator.getChildren("/"));
         zookeeperOperator.closeConnection();
     }
