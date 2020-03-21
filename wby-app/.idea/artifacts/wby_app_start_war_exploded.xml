@@ -67,6 +67,10 @@
           <element id="library" level="project" name="Maven: org.javassist:javassist:3.20.0-GA" />
           <element id="library" level="project" name="Maven: org.jboss.netty:netty:3.2.5.Final" />
           <element id="library" level="project" name="Maven: org.projectlombok:lombok:1.18.8" />
+          <element id="archive" name="wby-app-cuttle-1.0.0-SNAPSHOT.jar">
+            <element id="module-output" name="wby-app-cuttle" />
+          </element>
+          <element id="library" level="project" name="Maven: org.springframework:spring-tx:5.1.9.RELEASE" />
           <element id="archive" name="wby-app-view-1.0.0-SNAPSHOT.jar">
             <element id="module-output" name="wby-app-view" />
           </element>

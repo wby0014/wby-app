@@ -44,6 +44,10 @@
           <element id="library" level="project" name="Maven: com.alibaba:dubbo:2.6.4" />
           <element id="library" level="project" name="Maven: org.javassist:javassist:3.20.0-GA" />
           <element id="library" level="project" name="Maven: org.jboss.netty:netty:3.2.5.Final" />
+          <element id="archive" name="wby-app-cuttle-1.0.0-SNAPSHOT.jar">
+            <element id="module-output" name="wby-app-cuttle" />
+          </element>
+          <element id="library" level="project" name="Maven: org.springframework:spring-tx:5.1.9.RELEASE" />
           <element id="archive" name="wby-app-upms-rpc-api-1.0.0-SNAPSHOT.jar">
             <element id="module-output" name="wby-app-upms-rpc-api" />
           </element>
@@ -62,7 +66,6 @@
           <element id="library" level="project" name="Maven: org.springframework.data:spring-data-redis:2.1.10.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework.data:spring-data-keyvalue:2.1.10.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework.data:spring-data-commons:2.1.10.RELEASE" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-tx:5.1.9.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-oxm:5.1.9.RELEASE" />
           <element id="library" level="project" name="Maven: io.lettuce:lettuce-core:5.1.8.RELEASE" />
           <element id="library" level="project" name="Maven: io.netty:netty-common:4.1.38.Final" />

@@ -38,6 +38,11 @@
           <element id="library" level="project" name="Maven: org.javassist:javassist:3.20.0-GA" />
           <element id="library" level="project" name="Maven: org.jboss.netty:netty:3.2.5.Final" />
           <element id="library" level="project" name="Maven: org.projectlombok:lombok:1.18.8" />
+          <element id="archive" name="wby-app-cuttle-1.0.0-SNAPSHOT.jar">
+            <element id="module-output" name="wby-app-cuttle" />
+          </element>
+          <element id="library" level="project" name="Maven: org.springframework:spring-tx:5.1.9.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-beans:5.1.9.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter-web:2.1.7.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter:2.1.7.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot:2.1.7.RELEASE" />
@@ -64,7 +69,6 @@
           <element id="library" level="project" name="Maven: javax.validation:validation-api:2.0.1.Final" />
           <element id="library" level="project" name="Maven: org.jboss.logging:jboss-logging:3.3.2.Final" />
           <element id="library" level="project" name="Maven: org.springframework:spring-web:5.1.9.RELEASE" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-beans:5.1.9.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-webmvc:5.1.9.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-aop:5.1.9.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-expression:5.1.9.RELEASE" />

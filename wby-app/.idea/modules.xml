@@ -19,6 +19,7 @@
       <module fileurl="file://$PROJECT_DIR$/wby-app-modules/wby-app-cms/wby-app-cms-web/wby-app-cms-web.iml" filepath="$PROJECT_DIR$/wby-app-modules/wby-app-cms/wby-app-cms-web/wby-app-cms-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/wby-app-common/wby-app-common.iml" filepath="$PROJECT_DIR$/wby-app-common/wby-app-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/wby-app-config/wby-app-config.iml" filepath="$PROJECT_DIR$/wby-app-config/wby-app-config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wby-app-cuttle/wby-app-cuttle.iml" filepath="$PROJECT_DIR$/wby-app-cuttle/wby-app-cuttle.iml" />
       <module fileurl="file://$PROJECT_DIR$/wby-app-config/wby-app-datasource/wby-app-datasource.iml" filepath="$PROJECT_DIR$/wby-app-config/wby-app-datasource/wby-app-datasource.iml" />
       <module fileurl="file://$PROJECT_DIR$/wby-app-designmode/wby-app-designmode.iml" filepath="$PROJECT_DIR$/wby-app-designmode/wby-app-designmode.iml" />
       <module fileurl="file://$PROJECT_DIR$/wby-app-config/wby-app-exception/wby-app-exception.iml" filepath="$PROJECT_DIR$/wby-app-config/wby-app-exception/wby-app-exception.iml" />

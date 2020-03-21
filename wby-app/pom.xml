@@ -55,6 +55,7 @@
         <module>wby-app-algorithms</module>
         <module>wby-app-designmode</module>
         <module>wby-start-web</module>
+        <module>wby-app-cuttle</module>
     </modules>
 
 </project>
