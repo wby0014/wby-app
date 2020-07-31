@@ -3,20 +3,29 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/wby-app-algorithms" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wby-app-algorithms/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/wby-app-api" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/wby-app-api/wby-app-api-common" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/wby-app-api/wby-app-api-rpc-api" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/wby-app-api/wby-app-api-rpc-service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/wby-app-api/wby-app-api-server" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/wby-app-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wby-app-common/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/wby-app-config" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/wby-app-config/wby-app-activemq" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wby-app-config/wby-app-activemq/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/wby-app-config/wby-app-datasource" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wby-app-config/wby-app-datasource/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/wby-app-config/wby-app-exception" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wby-app-config/wby-app-exception/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/wby-app-config/wby-app-redis" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wby-app-config/wby-app-redis/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/wby-app-config/wby-app-rocketmq" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wby-app-config/wby-app-rocketmq/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/wby-app-cuttle" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wby-app-cuttle/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/wby-app-designmode" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wby-app-designmode/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/wby-app-modules" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/wby-app-modules/wby-app-cms" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/wby-app-modules/wby-app-cms/wby-app-cms-admin" charset="UTF-8" />
@@ -27,18 +36,27 @@
     <file url="file://$PROJECT_DIR$/wby-app-modules/wby-app-cms/wby-app-cms-web" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/wby-app-modules/wby-app-upms" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/wby-app-modules/wby-app-upms/wby-app-upms-client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wby-app-modules/wby-app-upms/wby-app-upms-client/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/wby-app-modules/wby-app-upms/wby-app-upms-common" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/wby-app-modules/wby-app-upms/wby-app-upms-dao" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wby-app-modules/wby-app-upms/wby-app-upms-dao/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/wby-app-modules/wby-app-upms/wby-app-upms-rpc-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wby-app-modules/wby-app-upms/wby-app-upms-rpc-api/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/wby-app-modules/wby-app-upms/wby-app-upms-rpc-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wby-app-modules/wby-app-upms/wby-app-upms-rpc-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wby-app-modules/wby-app-upms/wby-app-upms-rpc-service/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/wby-app-modules/wby-app-upms/wby-app-upms-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wby-app-modules/wby-app-upms/wby-app-upms-server/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/wby-app-modules/wby-app-user" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/wby-app-modules/wby-app-user/wby-app-user-common" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/wby-app-modules/wby-app-user/wby-app-user-dao" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/wby-app-modules/wby-app-user/wby-app-user-rpc-api" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/wby-app-modules/wby-app-user/wby-app-user-rpc-service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/wby-app-modules/wby-app-user/wby-app-user-web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wby-app-mybatis-plus/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wby-app-plugin/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/wby-app-start" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wby-app-start/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/wby-app-view" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/wby-start-web" charset="UTF-8" />
   </component>

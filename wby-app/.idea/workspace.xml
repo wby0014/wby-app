@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fbcbe4d9-a730-440a-a748-800fd4736fb9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wby-app-cuttle/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/wby-app-cuttle/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wby-app-cuttle/wby-app-cuttle.iml" beforeDir="false" afterPath="$PROJECT_DIR$/wby-app-cuttle/wby-app-cuttle.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,6 +17,7 @@
       <list>
         <option value="Enum" />
         <option value="Interface" />
+        <option value="AnnotationType" />
         <option value="Class" />
       </list>
     </option>
@@ -33,9 +31,9 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="localRepository" value="D:\MavenRepositoy" />
+        <option name="localRepository" value="D:\software\mavenRepository\repository" />
         <option name="mavenHome" value="D:/apache-maven-3.3.9" />
-        <option name="userSettingsFile" value="D:\apache-maven-3.3.9\conf\settings-bak3.xml" />
+        <option name="userSettingsFile" value="D:\software\apache-maven-3.6.3\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
     <option name="importingSettings">
@@ -48,24 +46,29 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
   </component>
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SearchEverywhereHistoryKey" value="redisproperties&#9;FILE&#9;jar://D:/MavenRepositoy/org/springframework/boot/spring-boot-autoconfigure/1.5.16.RELEASE/spring-boot-autoconfigure-1.5.16.RELEASE.jar!/org/springframework/boot/autoconfigure/data/redis/RedisProperties.class&#10;RedisP&#9;FILE&#9;jar://D:/MavenRepositoy/org/springframework/boot/spring-boot-autoconfigure/1.5.16.RELEASE/spring-boot-autoconfigure-1.5.16.RELEASE.jar!/org/springframework/boot/autoconfigure/data/redis/RedisProperties.class&#10;springfac&#9;FILE&#9;jar://D:/MavenRepositoy/org/springframework/spring-core/4.3.19.RELEASE/spring-core-4.3.19.RELEASE.jar!/org/springframework/core/io/support/SpringFactoriesLoader.class&#10;System&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_101/jre/lib/rt.jar!/java/lang/System.class&#10;Arrays&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_101/jre/lib/rt.jar!/java/util/Arrays.class&#10;String&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/lang/String.java&#10;Integer&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_101/jre/lib/rt.jar!/java/lang/Integer.class&#10;ArrayList&#9;PSI&#9;JAVA://java.util.ArrayList" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554368962723" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/wby-app-common/src/main/java/com/example/wby/common/filter" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/wby-app-mybatis-plus/src/main/java/com/example/wby/plus" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.37763712" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -74,39 +77,27 @@
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\project\wby-app\wby-app\wby-app-mybatis-plus\src\main\java\com\example\wby\plus" />
+      <recent name="E:\project\wby-app\wby-app\wby-app-mybatis-plus\src\main\resources" />
       <recent name="E:\gitdemo\wby-app\wby-app\wby-app-common\src\main\java\com\example\wby\common\filter" />
       <recent name="E:\gitdemo\wby-app\wby-app\wby-app-common\src\main\java\com\example\wby\common\listener" />
       <recent name="E:\gitdemo\wby-app\wby-app\wby-app-common\src\main\java\com\example\wby\common\customthreadpool" />
-      <recent name="E:\gitdemo\wby-app\wby-app\wby-app-designmode\src\main\java\com\wby0014\demo\module\user" />
-      <recent name="E:\gitdemo\wby-app\wby-app\wby-start-web\src\main\java\com\wby\spi" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Application.CyclicBarrierDemo">
+  <component name="RunManager" selected="JUnit.MybatisPlusTest.testDelete">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConditionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.wby.cuttle.concurrency.condition.ConditionDemo" />
-      <module name="wby-app-cuttle" />
+    <configuration name="AutoGeneratorUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.wby.plus.generator.AutoGeneratorUtil" />
+      <module name="wby-app-mybatis-plus" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.wby.cuttle.concurrency.condition.*" />
+          <option name="PATTERN" value="com.example.wby.plus.generator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,50 +119,42 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProducerConsumerDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.wby.cuttle.concurrency.waitnotify.ProducerConsumerDemo" />
-      <module name="wby-app-cuttle" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.wby.cuttle.concurrency.waitnotify.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SemaphoreDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.wby.cuttle.concurrency.semaphore.SemaphoreDemo" />
-      <module name="wby-app-cuttle" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.wby.cuttle.concurrency.semaphore.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ThreadPoolExecutorDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.wby.cuttle.concurrency.threadpool.ThreadPoolExecutorDemo" />
-      <module name="wby-app-cuttle" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.wby.cuttle.concurrency.threadpool.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MybatisPlusTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="wby-app-mybatis-plus" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.wby.plus.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.wby.plus" />
+      <option name="MAIN_CLASS_NAME" value="com.example.wby.plus.MybatisPlusTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MybatisPlusTest.testDelete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="wby-app-mybatis-plus" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.wby.plus.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.wby.plus" />
+      <option name="MAIN_CLASS_NAME" value="com.example.wby.plus.MybatisPlusTest" />
+      <option name="METHOD_NAME" value="testDelete" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -179,6 +162,19 @@
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BPDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="wby-app-mybatis-plus" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.wby.plus.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.wby.plus.BPDemoApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -231,22 +227,22 @@
     </configuration>
     <list>
       <item itemvalue="Application.CyclicBarrierDemo" />
-      <item itemvalue="Application.SemaphoreDemo" />
-      <item itemvalue="Application.ProducerConsumerDemo" />
-      <item itemvalue="Application.ConditionDemo" />
-      <item itemvalue="Application.ThreadPoolExecutorDemo" />
+      <item itemvalue="Application.AutoGeneratorUtil" />
+      <item itemvalue="JUnit.MybatisPlusTest.test" />
+      <item itemvalue="JUnit.MybatisPlusTest.testDelete" />
       <item itemvalue="Spring Boot.WebApplication" />
       <item itemvalue="Spring Boot.UpmsRpcServiceApplication" />
       <item itemvalue="Spring Boot.UpmsServerApplication" />
       <item itemvalue="Spring Boot.RocketMQApplication" />
+      <item itemvalue="Spring Boot.BPDemoApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MybatisPlusTest.testDelete" />
+        <item itemvalue="JUnit.MybatisPlusTest.test" />
+        <item itemvalue="Spring Boot.BPDemoApplication" />
+        <item itemvalue="Application.AutoGeneratorUtil" />
         <item itemvalue="Application.CyclicBarrierDemo" />
-        <item itemvalue="Application.ThreadPoolExecutorDemo" />
-        <item itemvalue="Application.ConditionDemo" />
-        <item itemvalue="Application.ProducerConsumerDemo" />
-        <item itemvalue="Application.SemaphoreDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -289,6 +285,16 @@
       <workItem from="1589274703181" duration="5388000" />
       <workItem from="1590132157690" duration="810000" />
       <workItem from="1590138805884" duration="3363000" />
+      <workItem from="1592554057703" duration="2935000" />
+      <workItem from="1593572463094" duration="1491000" />
+      <workItem from="1593668771098" duration="83000" />
+      <workItem from="1593669145016" duration="93000" />
+      <workItem from="1593669943239" duration="23000" />
+      <workItem from="1593670772268" duration="101000" />
+      <workItem from="1593764235754" duration="3013000" />
+      <workItem from="1593767289833" duration="4408000" />
+      <workItem from="1594022885356" duration="1295000" />
+      <workItem from="1596186026272" duration="2255000" />
     </task>
     <servers />
   </component>
@@ -307,6 +313,68 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="275" y="22" key="#Project_Structure" timestamp="1593765158472">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="22" key="#Project_Structure/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1593765158472" />
+    <state x="488" y="73" key="#com.intellij.ide.util.MemberChooser" timestamp="1596188271748">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="488" y="73" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1596188271748" />
+    <state x="253" y="288" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1596187680411">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="253" y="288" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1596187680411" />
+    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1593765059627">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1593765059627" />
+    <state width="1323" height="124" key="GridCell.Tab.0.bottom" timestamp="1593772496045">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="124" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1593772496045" />
+    <state width="1323" height="124" key="GridCell.Tab.0.center" timestamp="1593772496045">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="124" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1593772496045" />
+    <state width="1323" height="124" key="GridCell.Tab.0.left" timestamp="1593772496045">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="124" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1593772496045" />
+    <state width="1323" height="124" key="GridCell.Tab.0.right" timestamp="1593772496045">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="124" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1593772496045" />
+    <state width="1323" height="124" key="GridCell.Tab.1.bottom" timestamp="1593772496046">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="124" key="GridCell.Tab.1.bottom/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1593772496046" />
+    <state width="1323" height="124" key="GridCell.Tab.1.center" timestamp="1593772496046">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="124" key="GridCell.Tab.1.center/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1593772496046" />
+    <state width="1323" height="124" key="GridCell.Tab.1.left" timestamp="1593772496045">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="124" key="GridCell.Tab.1.left/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1593772496045" />
+    <state width="1323" height="124" key="GridCell.Tab.1.right" timestamp="1593772496046">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="124" key="GridCell.Tab.1.right/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1593772496046" />
+    <state x="184" y="5" key="SettingsEditor" timestamp="1593767353171">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="184" y="5" key="SettingsEditor/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1593767353171" />
+    <state x="359" y="97" width="737" height="534" key="find.popup" timestamp="1593670854836">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="359" y="97" width="737" height="534" key="find.popup/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1593670854836" />
+    <state x="115" y="0" key="new project wizard" timestamp="1596186134683">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="115" y="0" key="new project wizard/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1596186134683" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
