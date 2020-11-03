@@ -7,22 +7,22 @@ package number2;
  * @date 2019/1/18 14:15.
  */
 public class Heap {
-
     public static void sort(Comparable[] a) {
         int N = a.length;
-        //构造堆有序
+        // 构造堆有序
         for (int i = N / 2; i >= 1; i--) {
             sink(a, i, N);
         }
-        //排序
+
+        // 排序
         while (N > 1) {
             exch(a, 1, N--);
             sink(a, 1, N);
         }
+
     }
 
-
-    //下沉
+    // 下沉
     private static void sink(Comparable[] a, int i, int N) {
         while (2 * i <= N) {
             int j = 2 * i;
@@ -37,7 +37,9 @@ public class Heap {
         }
     }
 
-    //exch() 和 less() 将索引减1实现a[0]至a[N-1]排序
+    /**
+     * exch() 和 less () 将索引减一实现a[0]至a[N-1]排序
+     */
     private static void exch(Comparable[] a, int i, int j) {
         Comparable temp = a[i - 1];
         a[i - 1] = a[j - 1];
@@ -50,7 +52,7 @@ public class Heap {
 
     public static void show(Comparable a[]) {
         for (int i = 0; i < a.length; i++) {
-            System.out.println(a[i] + "");
+            System.out.print(a[i] + " ");
         }
     }
 
@@ -59,4 +61,5 @@ public class Heap {
         sort(a);
         show(a);
     }
+
 }

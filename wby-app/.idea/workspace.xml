@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fbcbe4d9-a730-440a-a748-800fd4736fb9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-app-algorithms/src/main/java/number1/DrawArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-app-algorithms/src/main/java/number1/DrawArrays.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-app-algorithms/src/main/java/number2/ComparableDate.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-app-cuttle/src/main/java/com/example/wby/cuttle/demo/ComparableDate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-app-algorithms/src/main/java/number2/Heap.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-app-algorithms/src/main/java/number2/Heap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-app-algorithms/src/main/java/number2/IndexPriorityQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-app-algorithms/src/main/java/number2/IndexPriorityQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-app-algorithms/src/main/java/number2/SituMerge.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-app-algorithms/src/main/java/number2/TestInner.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-app-cuttle/src/main/java/com/example/wby/cuttle/demo/TestInner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-app-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/wby-app-common/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +67,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554368962723" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/wby-app-mybatis-plus/src/main/java/com/example/wby/plus" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../wby-framework" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -71,6 +77,9 @@
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\project\wby-study\wby-app\wby-app\wby-app-algorithms\src\main\java" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.example.wby.common.config" />
       <recent name="com.example.wby.common.properties" />
@@ -84,20 +93,48 @@
       <recent name="E:\gitdemo\wby-app\wby-app\wby-app-common\src\main\java\com\example\wby\common\customthreadpool" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MybatisPlusTest.testDelete">
+  <component name="RunManager" selected="Application.BubbleSort">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AutoGeneratorUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.wby.plus.generator.AutoGeneratorUtil" />
-      <module name="wby-app-mybatis-plus" />
+    <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="search.BinarySearch" />
+      <module name="wby-app-algorithms" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.wby.plus.generator.*" />
+          <option name="PATTERN" value="search.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BinarySearchRecursion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="search.BinarySearchRecursion" />
+      <module name="wby-app-algorithms" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="search.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="number2.BubbleSort" />
+      <module name="wby-app-algorithms" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.wby.cuttle.demo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,42 +156,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SemaphoreDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.wby.cuttle.concurrency.semaphore.SemaphoreDemo" />
+      <module name="wby-app-cuttle" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.wby.cuttle.concurrency.semaphore.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MybatisPlusTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="wby-app-mybatis-plus" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.wby.plus.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.example.wby.plus" />
-      <option name="MAIN_CLASS_NAME" value="com.example.wby.plus.MybatisPlusTest" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MybatisPlusTest.testDelete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="wby-app-mybatis-plus" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.wby.plus.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.example.wby.plus" />
-      <option name="MAIN_CLASS_NAME" value="com.example.wby.plus.MybatisPlusTest" />
-      <option name="METHOD_NAME" value="testDelete" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -166,14 +183,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BPDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="BPDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="wby-app-mybatis-plus" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.wby.plus.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.wby.plus.BPDemoApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -227,22 +238,23 @@
     </configuration>
     <list>
       <item itemvalue="Application.CyclicBarrierDemo" />
-      <item itemvalue="Application.AutoGeneratorUtil" />
-      <item itemvalue="JUnit.MybatisPlusTest.test" />
-      <item itemvalue="JUnit.MybatisPlusTest.testDelete" />
+      <item itemvalue="Application.SemaphoreDemo" />
       <item itemvalue="Spring Boot.WebApplication" />
       <item itemvalue="Spring Boot.UpmsRpcServiceApplication" />
       <item itemvalue="Spring Boot.UpmsServerApplication" />
       <item itemvalue="Spring Boot.RocketMQApplication" />
       <item itemvalue="Spring Boot.BPDemoApplication" />
+      <item itemvalue="Application.BinarySearch" />
+      <item itemvalue="Application.BinarySearchRecursion" />
+      <item itemvalue="Application.BubbleSort" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MybatisPlusTest.testDelete" />
-        <item itemvalue="JUnit.MybatisPlusTest.test" />
-        <item itemvalue="Spring Boot.BPDemoApplication" />
-        <item itemvalue="Application.AutoGeneratorUtil" />
+        <item itemvalue="Application.BubbleSort" />
+        <item itemvalue="Application.BinarySearchRecursion" />
+        <item itemvalue="Application.BinarySearch" />
         <item itemvalue="Application.CyclicBarrierDemo" />
+        <item itemvalue="Application.SemaphoreDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -294,7 +306,16 @@
       <workItem from="1593764235754" duration="3013000" />
       <workItem from="1593767289833" duration="4408000" />
       <workItem from="1594022885356" duration="1295000" />
-      <workItem from="1596186026272" duration="2255000" />
+      <workItem from="1596186026272" duration="2861000" />
+      <workItem from="1597023454270" duration="1590000" />
+      <workItem from="1597061050384" duration="739000" />
+      <workItem from="1597135457312" duration="2806000" />
+      <workItem from="1597300692193" duration="1561000" />
+      <workItem from="1598347859246" duration="3302000" />
+      <workItem from="1599640695420" duration="9010000" />
+      <workItem from="1600222063091" duration="10542000" />
+      <workItem from="1604045989889" duration="2794000" />
+      <workItem from="1604366176024" duration="6974000" />
     </task>
     <servers />
   </component>
@@ -315,66 +336,75 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="275" y="22" key="#Project_Structure" timestamp="1593765158472">
+    <state x="1753" y="31" key="#Project_Structure" timestamp="1597135816676">
+      <screen x="1366" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1753" y="31" key="#Project_Structure/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1597135816676" />
+    <state x="488" y="73" key="#com.intellij.ide.util.MemberChooser" timestamp="1604372793453">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="22" key="#Project_Structure/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1593765158472" />
-    <state x="488" y="73" key="#com.intellij.ide.util.MemberChooser" timestamp="1596188271748">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="488" y="73" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1596188271748" />
+    <state x="488" y="73" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1604372793453" />
     <state x="253" y="288" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1596187680411">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="253" y="288" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1596187680411" />
-    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1593765059627">
+    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1604371866762">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1593765059627" />
-    <state width="1323" height="124" key="GridCell.Tab.0.bottom" timestamp="1593772496045">
+    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1604371866762" />
+    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1600047114484">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="124" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1593772496045" />
-    <state width="1323" height="124" key="GridCell.Tab.0.center" timestamp="1593772496045">
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1600047114484" />
+    <state width="1323" height="307" key="GridCell.Tab.0.bottom" timestamp="1604372411434">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="124" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1593772496045" />
-    <state width="1323" height="124" key="GridCell.Tab.0.left" timestamp="1593772496045">
+    <state width="1323" height="307" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1604372411434" />
+    <state width="1877" height="269" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1598357213163" />
+    <state width="1323" height="307" key="GridCell.Tab.0.center" timestamp="1604372411434">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="124" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1593772496045" />
-    <state width="1323" height="124" key="GridCell.Tab.0.right" timestamp="1593772496045">
+    <state width="1323" height="307" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1604372411434" />
+    <state width="1877" height="269" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1598357213163" />
+    <state width="1323" height="307" key="GridCell.Tab.0.left" timestamp="1604372411434">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="124" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1593772496045" />
-    <state width="1323" height="124" key="GridCell.Tab.1.bottom" timestamp="1593772496046">
+    <state width="1323" height="307" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1604372411434" />
+    <state width="1877" height="269" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1598357213162" />
+    <state width="1323" height="307" key="GridCell.Tab.0.right" timestamp="1604372411434">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="124" key="GridCell.Tab.1.bottom/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1593772496046" />
-    <state width="1323" height="124" key="GridCell.Tab.1.center" timestamp="1593772496046">
+    <state width="1323" height="307" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1604372411434" />
+    <state width="1877" height="269" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1598357213163" />
+    <state width="1323" height="196" key="GridCell.Tab.1.bottom" timestamp="1604368892067">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="124" key="GridCell.Tab.1.center/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1593772496046" />
-    <state width="1323" height="124" key="GridCell.Tab.1.left" timestamp="1593772496045">
+    <state width="1323" height="196" key="GridCell.Tab.1.bottom/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1604368892067" />
+    <state width="1323" height="196" key="GridCell.Tab.1.center" timestamp="1604368892066">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="124" key="GridCell.Tab.1.left/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1593772496045" />
-    <state width="1323" height="124" key="GridCell.Tab.1.right" timestamp="1593772496046">
+    <state width="1323" height="196" key="GridCell.Tab.1.center/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1604368892066" />
+    <state width="1323" height="196" key="GridCell.Tab.1.left" timestamp="1604368892065">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="124" key="GridCell.Tab.1.right/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1593772496046" />
-    <state x="184" y="5" key="SettingsEditor" timestamp="1593767353171">
+    <state width="1323" height="196" key="GridCell.Tab.1.left/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1604368892065" />
+    <state width="1323" height="196" key="GridCell.Tab.1.right" timestamp="1604368892067">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="184" y="5" key="SettingsEditor/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1593767353171" />
-    <state x="359" y="97" width="737" height="534" key="find.popup" timestamp="1593670854836">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1323" height="196" key="GridCell.Tab.1.right/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1604368892067" />
+    <state x="1871" y="139" width="1036" height="763" key="find.popup" timestamp="1599641202091">
+      <screen x="1366" y="0" width="1920" height="1040" />
     </state>
-    <state x="359" y="97" width="737" height="534" key="find.popup/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1593670854836" />
+    <state x="1871" y="139" width="1036" height="763" key="find.popup/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1599641202091" />
     <state x="115" y="0" key="new project wizard" timestamp="1596186134683">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="115" y="0" key="new project wizard/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1596186134683" />
+    <state x="1852" y="70" width="945" height="969" key="search.everywhere.popup" timestamp="1599641208307">
+      <screen x="1366" y="0" width="1920" height="1040" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1597300820681" />
+    <state x="1852" y="70" width="945" height="969" key="search.everywhere.popup/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1599641208307" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

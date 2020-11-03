@@ -1,4 +1,4 @@
-package number2;
+package com.example.wby.cuttle.demo;
 
 import java.io.Serializable;
 
@@ -11,16 +11,16 @@ import java.io.Serializable;
  * @author wubinyu
  * @date 2019/2/25 16:00.
  */
-public class TestInner extends SituMerge implements Serializable {
+public class TestInner extends Object implements Serializable {
 
-    private class Node extends Heap {
+    private class Node extends Object {
 
     }
 
-    protected class Sync extends IndexPriorityQueue implements Serializable {
+    protected class Sync extends Object implements Serializable {
 
         public Sync(int maxN) {
-            super(maxN);
+            super();
         }
     }
 

@@ -182,12 +182,12 @@
             <artifactId>lombok</artifactId>
             <version>1.18.6</version>
         </dependency>
-        <dependency>
+       <!-- <dependency>
             <groupId>com.example.wby</groupId>
             <artifactId>wby-app-cuttle</artifactId>
             <version>1.0.0-SNAPSHOT</version>
             <scope>compile</scope>
-        </dependency>
+        </dependency>-->
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-tx</artifactId>

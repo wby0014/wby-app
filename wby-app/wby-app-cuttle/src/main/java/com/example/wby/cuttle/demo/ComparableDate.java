@@ -1,4 +1,4 @@
-package number2;
+package com.example.wby.cuttle.demo;
 
 /**
  * p155 定义一个可用于比较的数据类型
