@@ -9,4 +9,8 @@
         <result column="age" property="age" />
     </resultMap>
 
+    <select id="test" >
+
+    </select>
+
 </mapper>

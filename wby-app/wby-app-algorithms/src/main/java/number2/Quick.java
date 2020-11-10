@@ -8,30 +8,30 @@ package number2;
 public class Quick {
     // 快速排序的切分
     private static int partition(Comparable[] a, int lo, int hi) {
-        int i = lo, j = hi + 1;// 左右扫描指针
+        int L = lo, R = hi + 1;// 左右扫描指针
         Comparable v = a[lo];// 切分元素
         while (true) {
-            // 如果a[i]小于v时，增大i
-            while (less(a[++i], v)) {
-                if (i == hi)
+            // 如果a[L]小于v时，增大L
+            while (less(a[++L], v)) {
+                if (L == hi)
                     break;
             }
-            // 如果a[j]大于v时，减小j
-            while (less(v, a[--j])) {
+            // 如果a[R]大于v时，减小R
+            while (less(v, a[--R])) {
                 // 可去掉 多余的
-                // if (j == lo)
+                // if (R == lo)
                 // break;
             }
-
-            if (i >= j) {
+            if (L >= R) {
                 break;
             }
-            exch(a, i, j);// 交换i,j的位置
+            exch(a, L, R);// 交换L,R的位置
         }
-
-        exch(a, lo, j);// 将v=a[j]放入正确的位置
-        return j;
+        exch(a, lo, R);// 将v=a[R]放入正确的位置
+        return R;
     }
+
+
 
     // 排序
     public static void sort(Comparable[] a) {
@@ -45,7 +45,6 @@ public class Quick {
         int j = partition(a, lo, hi);// 切分
         sort(a, lo, j - 1);// 左边排序
         sort(a, j + 1, hi);// 右边排序
-
     }
 
     // 元素之间进行比较
