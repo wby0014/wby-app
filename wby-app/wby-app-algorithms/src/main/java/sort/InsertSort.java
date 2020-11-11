@@ -3,7 +3,8 @@ package sort;
 import java.util.Arrays;
 
 /**
- * @Description
+ * @Description 插入排序
+ * 是一种从序列左端开始依次对数据进行排序的算法，思路是从右侧的未排序区域内取出一个数据，然后将它插入到已排序区域内合适的位置上
  * @Date 2020/11/10 17:01
  * @Author wuby31052
  */

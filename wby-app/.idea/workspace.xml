@@ -3,8 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="fbcbe4d9-a730-440a-a748-800fd4736fb9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/wby-app-algorithms/src/main/java/number2/AutochthonousMerge.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-app-algorithms/src/main/java/number2/AutochthonousMerge.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wby-app-algorithms/src/main/java/number2/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-app-algorithms/src/main/java/number2/BubbleSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wby-app-algorithms/src/main/java/number2/Quick.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-app-algorithms/src/main/java/number2/Quick.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-app-algorithms/src/main/java/number2/Selection.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-app-algorithms/src/main/java/number2/Selection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-app-algorithms/src/main/java/sort/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-app-algorithms/src/main/java/sort/BubbleSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-app-algorithms/src/main/java/sort/InsertSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-app-algorithms/src/main/java/sort/InsertSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-app-algorithms/src/main/java/sort/QuickSort2.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-app-algorithms/src/main/java/sort/QuickSort2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,29 +91,15 @@
       <recent name="E:\gitdemo\wby-app\wby-app\wby-app-common\src\main\java\com\example\wby\common\customthreadpool" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.InsertSort">
+  <component name="RunManager" selected="Application.AutochthonousMerge">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BubbleSort (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sort.BubbleSort" />
-      <module name="wby-app-algorithms" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="sort.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="number2.BubbleSort" />
+    <configuration name="AutochthonousMerge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="number2.AutochthonousMerge" />
       <module name="wby-app-algorithms" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -138,8 +126,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sort.QuickSort" />
+    <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sort.MergeSort" />
       <module name="wby-app-algorithms" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -152,8 +140,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QuickSort2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sort.QuickSort2" />
+    <configuration name="Selection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="number2.Selection" />
+      <module name="wby-app-algorithms" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="number2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SelectionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sort.SelectionSort" />
       <module name="wby-app-algorithms" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -238,19 +240,19 @@
       <item itemvalue="Spring Boot.UpmsServerApplication" />
       <item itemvalue="Spring Boot.RocketMQApplication" />
       <item itemvalue="Spring Boot.BPDemoApplication" />
-      <item itemvalue="Application.BubbleSort" />
-      <item itemvalue="Application.QuickSort" />
-      <item itemvalue="Application.QuickSort2" />
-      <item itemvalue="Application.BubbleSort (1)" />
       <item itemvalue="Application.InsertSort" />
+      <item itemvalue="Application.Selection" />
+      <item itemvalue="Application.SelectionSort" />
+      <item itemvalue="Application.MergeSort" />
+      <item itemvalue="Application.AutochthonousMerge" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AutochthonousMerge" />
+        <item itemvalue="Application.MergeSort" />
+        <item itemvalue="Application.SelectionSort" />
+        <item itemvalue="Application.Selection" />
         <item itemvalue="Application.InsertSort" />
-        <item itemvalue="Application.BubbleSort (1)" />
-        <item itemvalue="Application.QuickSort" />
-        <item itemvalue="Application.QuickSort2" />
-        <item itemvalue="Application.BubbleSort" />
       </list>
     </recent_temporary>
   </component>
@@ -315,7 +317,7 @@
       <workItem from="1604545074469" duration="11580000" />
       <workItem from="1604905687240" duration="561000" />
       <workItem from="1604908276115" duration="1434000" />
-      <workItem from="1604922177011" duration="16432000" />
+      <workItem from="1604922177011" duration="24924000" />
     </task>
     <servers />
   </component>
@@ -356,25 +358,25 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1600047114484" />
-    <state width="1323" height="116" key="GridCell.Tab.0.bottom" timestamp="1604999674666">
+    <state width="1323" height="221" key="GridCell.Tab.0.bottom" timestamp="1605086108880">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="116" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1604999674666" />
+    <state width="1323" height="221" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1605086108880" />
     <state width="1877" height="269" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1598357213163" />
-    <state width="1323" height="116" key="GridCell.Tab.0.center" timestamp="1604999674666">
+    <state width="1323" height="221" key="GridCell.Tab.0.center" timestamp="1605086108879">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="116" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1604999674666" />
+    <state width="1323" height="221" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1605086108879" />
     <state width="1877" height="269" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1598357213163" />
-    <state width="1323" height="116" key="GridCell.Tab.0.left" timestamp="1604999674665">
+    <state width="1323" height="221" key="GridCell.Tab.0.left" timestamp="1605086108879">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="116" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1604999674665" />
+    <state width="1323" height="221" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1605086108879" />
     <state width="1877" height="269" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1598357213162" />
-    <state width="1323" height="116" key="GridCell.Tab.0.right" timestamp="1604999674666">
+    <state width="1323" height="221" key="GridCell.Tab.0.right" timestamp="1605086108879">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="116" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1604999674666" />
+    <state width="1323" height="221" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1605086108879" />
     <state width="1877" height="269" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1598357213163" />
     <state width="1323" height="178" key="GridCell.Tab.1.bottom" timestamp="1604977832859">
       <screen x="0" y="0" width="1366" height="728" />

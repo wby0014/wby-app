@@ -29,7 +29,6 @@ public class AutochthonousMerge {
                 a[k] = aux[i++];//取左边元素
             }
         }
-
     }
 
     public static void show(Comparable[] a) {
