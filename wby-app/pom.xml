@@ -58,6 +58,7 @@
         <module>wby-app-cuttle</module>
         <module>wby-app-mybatis-plus</module>
         <module>wby-app-plugin</module>
+        <module>wby-app-lock</module>
     </modules>
 
 </project>

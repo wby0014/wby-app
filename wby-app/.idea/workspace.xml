@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fbcbe4d9-a730-440a-a748-800fd4736fb9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/wby-app-algorithms/src/main/java/number2/AutochthonousMerge.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-app-algorithms/src/main/java/number2/AutochthonousMerge.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wby-app-algorithms/src/main/java/number2/Selection.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-app-algorithms/src/main/java/number2/Selection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wby-app-algorithms/src/main/java/sort/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-app-algorithms/src/main/java/sort/BubbleSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wby-app-algorithms/src/main/java/sort/InsertSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-app-algorithms/src/main/java/sort/InsertSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wby-app-algorithms/src/main/java/sort/QuickSort2.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-app-algorithms/src/main/java/sort/QuickSort2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-app-algorithms/src/main/java/number2/Heap.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-app-algorithms/src/main/java/number2/Heap.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -317,7 +314,7 @@
       <workItem from="1604545074469" duration="11580000" />
       <workItem from="1604905687240" duration="561000" />
       <workItem from="1604908276115" duration="1434000" />
-      <workItem from="1604922177011" duration="24924000" />
+      <workItem from="1604922177011" duration="32800000" />
     </task>
     <servers />
   </component>
@@ -403,6 +400,10 @@
     </state>
     <state x="359" y="97" width="780" height="535" key="find.popup/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1604644278707" />
     <state x="1871" y="139" width="1036" height="763" key="find.popup/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1599641202091" />
+    <state x="57" y="58" key="new project wizard" timestamp="1605252996918">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="57" y="58" key="new project wizard/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1605252996918" />
     <state x="1852" y="70" width="945" height="969" key="search.everywhere.popup" timestamp="1599641208307">
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>

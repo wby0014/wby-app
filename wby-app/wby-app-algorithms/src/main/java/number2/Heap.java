@@ -60,6 +60,8 @@ public class Heap {
         Integer a[] = { 1, 4, 5, 2, 6, 9, 7, 3, 8 };
         sort(a);
         show(a);
+        int[][] arr = {{1,2},{3,4},{5,6}};
+        int i = arr[0].length;
     }
 
 }

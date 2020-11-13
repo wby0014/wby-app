@@ -23,6 +23,7 @@
       <module fileurl="file://$PROJECT_DIR$/wby-app-config/wby-app-datasource/wby-app-datasource.iml" filepath="$PROJECT_DIR$/wby-app-config/wby-app-datasource/wby-app-datasource.iml" />
       <module fileurl="file://$PROJECT_DIR$/wby-app-designmode/wby-app-designmode.iml" filepath="$PROJECT_DIR$/wby-app-designmode/wby-app-designmode.iml" />
       <module fileurl="file://$PROJECT_DIR$/wby-app-config/wby-app-exception/wby-app-exception.iml" filepath="$PROJECT_DIR$/wby-app-config/wby-app-exception/wby-app-exception.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wby-app-lock/wby-app-lock.iml" filepath="$PROJECT_DIR$/wby-app-lock/wby-app-lock.iml" />
       <module fileurl="file://$PROJECT_DIR$/wby-app-modules/wby-app-modules.iml" filepath="$PROJECT_DIR$/wby-app-modules/wby-app-modules.iml" />
       <module fileurl="file://$PROJECT_DIR$/wby-app-mybatis-plus/wby-app-mybatis-plus.iml" filepath="$PROJECT_DIR$/wby-app-mybatis-plus/wby-app-mybatis-plus.iml" />
       <module fileurl="file://$PROJECT_DIR$/wby-app-plugin/wby-app-plugin.iml" filepath="$PROJECT_DIR$/wby-app-plugin/wby-app-plugin.iml" />
