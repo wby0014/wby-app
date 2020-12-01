@@ -13,7 +13,7 @@ import java.util.Map;
  * @Author wuby31052
  */
 public class ThreadLocalDemo {
-
+    
     private static final ThreadLocal<ThreadLocalDemo> LOCAL_CONTEXT = new ThreadLocal<>();
 
     /**
