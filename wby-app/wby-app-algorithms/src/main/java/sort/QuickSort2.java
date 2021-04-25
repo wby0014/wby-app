@@ -37,13 +37,15 @@ public class QuickSort2 {
         int pivot = arr[startIndex];
         // 左右指针位置
         int left = startIndex;
-        int right = endIndex + 1;
-        while (right >= left) {
-            while (arr[++left] < pivot) {
-
+        int right = endIndex;
+        while (left <= right) {
+            //控制right指针比较并左移
+            while (left < right && arr[right] > pivot) {
+                right--;
             }
-            while (arr[--right] > pivot) {
-
+            //控制right指针比较并右移
+            while (left < right && arr[left] <= pivot) {
+                left++;
             }
             if (left >= right) {
                 break;
@@ -104,6 +106,5 @@ public class QuickSort2 {
         int[] arr2 = new int[]{2, 3, 8, 1, 9, 0, 5, 6, 4, 7};
         quickSort2(arr2, 0, arr.length - 1);
         System.out.println("quickSort2:" + Arrays.toString(arr2));
-
     }
 }
