@@ -23,6 +23,45 @@ public class QuickSort2 {
         quickSort(arr, pivotIndex + 1, endIndex);
     }
 
+    public static void quickSort2(int[] arr, int startIndex, int endIndex) {
+        if (startIndex >= endIndex) {
+            return;
+        }
+        int pivot = partition2(arr, startIndex, endIndex);
+        quickSort2(arr, startIndex, pivot - 1);
+        quickSort2(arr, pivot + 1, endIndex);
+    }
+
+    private static int partition2(int[] arr, int startIndex, int endIndex) {
+        // 基准元素
+        int pivot = arr[startIndex];
+        // 左右指针位置
+        int left = startIndex;
+        int right = endIndex + 1;
+        while (right >= left) {
+            while (arr[++left] < pivot) {
+
+            }
+            while (arr[--right] > pivot) {
+
+            }
+            if (left >= right) {
+                break;
+            }
+            swap(arr, left, right);
+        }
+        // 把基准元素放到此时的arr[right]位置
+        swap(arr, startIndex, right);
+        // 此时right指针等于基准元素位置
+        return right;
+    }
+
+    private static void swap(int[] arr, int i, int j) {
+        int temp = arr[j];
+        arr[j] = arr[i];
+        arr[i] = temp;
+    }
+
     private static int partition(int[] arr, int startIndex, int endIndex) {
         // 取第一个位置的元素作为基准元素
         int pivot = arr[startIndex];
@@ -58,8 +97,13 @@ public class QuickSort2 {
     }
 
     public static void main(String[] args) {
-        int[] arr = new int[]{4, 7, 6, 5, 3, 2, 8, 1};
+        int[] arr = new int[]{3, 4, 7, 6, 9, 0, 2, 8, 1, 5};
         quickSort(arr, 0, arr.length - 1);
-        System.out.println(Arrays.toString(arr));
+        System.out.println("quickSort:" + Arrays.toString(arr));
+
+        int[] arr2 = new int[]{2, 3, 8, 1, 9, 0, 5, 6, 4, 7};
+        quickSort2(arr2, 0, arr.length - 1);
+        System.out.println("quickSort2:" + Arrays.toString(arr2));
+
     }
 }
